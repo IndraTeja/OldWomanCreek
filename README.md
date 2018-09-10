@@ -4,7 +4,7 @@
 ### Instructor 
 * [Andrea Wiggins](http://andreawiggins.com/)
 
-### Team Memeber
+### 'In-Su-Ku' : Team Members
 1. Indra Teja Chintakayala
 2. Wancheng Sun
 3. Kalpana Jha
