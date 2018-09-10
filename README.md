@@ -1,5 +1,5 @@
 # Old Woman Creek - Team Project
-## Data to Decision (ISQA8086 - University of Nebraska at Omaha)
+## Data to Decision - _ISQA8086 - University of Nebraska at Omaha_
 
 ### Team Memeber
 
