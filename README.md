@@ -1,6 +1,8 @@
-# Old Woman Creek - Team Project
-## _ISQA8086 - Data to Decision - University of Nebraska at Omaha_
+# [Old Woman Creek](https://goo.gl/maps/LbCWxcjZbv12) - Team Project
+## _ISQA8086 - Data to Decision - [University of Nebraska at Omaha](https://www.unomaha.edu/)
 
+### Instructor 
+* [Andrea Wiggins](http://andreawiggins.com/)
 
 ### Team Memeber
 1. Indra Teja Chintakayala
