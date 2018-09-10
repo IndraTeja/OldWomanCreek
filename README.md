@@ -1,5 +1,6 @@
 # :deciduous_tree::evergreen_tree:[Old Woman Creek](https://goo.gl/maps/LbCWxcjZbv12) - Team Project
 ## _ISQA8086 - Data to Decision_ - [University of Nebraska at Omaha](https://www.unomaha.edu/) :school:
+[Read LICENCE](https://github.com/indraTeja/oldWomanCreek/blob/master/LICENSE)
 
 ### Instructor 
 * [Andrea Wiggins](http://andreawiggins.com/)
