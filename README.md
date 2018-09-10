@@ -1,6 +1,7 @@
-# Old Woman Creek - Data to Decision (ISQA8086 - University of Nebraska at Omaha)
+# Old Woman Creek - Team Project
+## Data to Decision (ISQA8086 - University of Nebraska at Omaha)
 
-## Team Memeber
+### Team Memeber
 
 * Indra Teja Chintakayala
 * Wancheng Sun
