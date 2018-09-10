@@ -1,5 +1,5 @@
 # :deciduous_tree::evergreen_tree:[Old Woman Creek](https://goo.gl/maps/LbCWxcjZbv12) - Team Project
-## _ISQA8086 - Data to Decision - [University of Nebraska at Omaha](https://www.unomaha.edu/)_
+## _ISQA8086 - Data to Decision - :school:[University of Nebraska at Omaha](https://www.unomaha.edu/)_
 
 ### Instructor 
 * [Andrea Wiggins](http://andreawiggins.com/)
@@ -10,8 +10,8 @@
 3. Kalpana Jha
 
 ### Datasets
-* Avian Monitoring
-* Bald Eagle Monitoring
+* Avian Monitoring  :bird:
+* Bald Eagle Monitoring 
 
 ### Tools 
 * [R Studio](https://www.rstudio.com/products/rstudio/download/)
