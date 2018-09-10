@@ -21,7 +21,7 @@
 ___
 ### Tasks
 
-* Data Set
+* Data Set Understanding
 * Data Cleaning
 * Background Research Report
 * Data Cleaning Documentation
