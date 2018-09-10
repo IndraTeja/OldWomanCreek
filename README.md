@@ -13,4 +13,4 @@
 
 ### Tools 
 * [R Studio](https://www.rstudio.com/products/rstudio/download/)
-* R Programming
+* [R Programming](https://www.rstudio.com/resources/cheatsheets/)
