@@ -1,5 +1,5 @@
 # [Old Woman Creek](https://goo.gl/maps/LbCWxcjZbv12) - Team Project
-## _ISQA8086 - Data to Decision - [University of Nebraska at Omaha](https://www.unomaha.edu/)
+## _ISQA8086 - Data to Decision - [University of Nebraska at Omaha](https://www.unomaha.edu/)_
 
 ### Instructor 
 * [Andrea Wiggins](http://andreawiggins.com/)
