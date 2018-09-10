@@ -3,9 +3,9 @@
 
 
 ### Team Memeber
-* Indra Teja Chintakayala
-* Wancheng Sun
-* Kalpana Jha
+1. Indra Teja Chintakayala
+2. Wancheng Sun
+3. Kalpana Jha
 
 ### Datasets
 * Avian Monitoring
