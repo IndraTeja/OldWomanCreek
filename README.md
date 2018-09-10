@@ -1,4 +1,7 @@
-# Old Woman Creek - Data to Decision 
+# Old Woman Creek - Data to Decision (ISQA8086 - University of Nebraska at Omaha)
 
-## Research Questions: 
-* 
+## Team Memeber
+
+* Indra Teja Chintakayala
+* Wancheng Sun
+* Kalpana Jha
