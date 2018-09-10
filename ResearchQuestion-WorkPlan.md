@@ -1,14 +1,7 @@
 ## Research Questions: 
-
-#### Avian Monitoring
-* 
-
-
-
-#### Bald Eagle Monitoring:
 * Compare Bald Eagle encouters from 1996-99 vs 2016-2018
-* Relationship between Nest Condition, Temperature, Precipitation, Cloud cover
-* 
+* Birds responses to different weather conditions in different bird habitats.
+*
 
 
 ___
