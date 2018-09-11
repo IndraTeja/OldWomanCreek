@@ -1,9 +1,9 @@
 ## Research Questions: 
 
 ### Table of Contents:
-1. [Avian Monitoring](#Avian)
+1. [Avian Monitoring](#AvianMonitoring)
 
-#### Avian Monitoring
+#### AvianMonitoring
 * Birds response to different weather conditions in different bird habitats.
 * What is the main factors influencing the bird to choose habitats?
 * Compare the temparatures to see what is the comfortable temperature for the birds.
