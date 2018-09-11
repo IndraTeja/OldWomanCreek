@@ -8,6 +8,7 @@
 1. [Team Member](#in-su-ku--team-members)
 1. [Datasets](#datasets-clipboard)
 1. [Tools](#tools)
+
   [Read LICENCE](https://github.com/indraTeja/oldWomanCreek/blob/master/LICENSE)
 
   [Research Questions and Work Plan](https://github.com/indraTeja/oldWomanCreek/blob/master/ResearchQuestion-WorkPlan.md)
