@@ -35,7 +35,7 @@ ___
 
 ___
 ### 4. Target Audience
-* Client: Old Woman Creek 
+* Client: Old Woman Creek, Huron, OH
 * Class of ISQA 8086 Fall 2018
 
 ___
