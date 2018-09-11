@@ -1,10 +1,11 @@
-## Research Questions: 
+## Research Questions and Tasks:
 
 ### Table of Contents
 1. [Avian Monitoring](#avian-monitoring)
-1. [Bald Eagle Monitoring](#bald-eagle-monitoring))
+1. [Bald Eagle Monitoring](#bald-eagle-monitoring)
 1. [Tasks](#task)
 1. [Target Audience](#target-audience)
+1. [Work Plan](https://github.com/indraTeja/oldWomanCreek/blob/master/GanttChart.pdf)
 
 ### Avian Monitoring
 * Birds response to different weather conditions in different bird habitats.
