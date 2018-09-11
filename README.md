@@ -1,13 +1,15 @@
 # :deciduous_tree::evergreen_tree:[Old Woman Creek](https://goo.gl/maps/LbCWxcjZbv12) - Team Project
 ## _ISQA8086 - Data to Decision_ - [University of Nebraska at Omaha](https://www.unomaha.edu/) :school:
 
-### Table of Contents
-i. [Read LICENCE](https://github.com/indraTeja/oldWomanCreek/blob/master/LICENSE)
-i. [Research Questions and Work Plan](https://github.com/indraTeja/oldWomanCreek/blob/master/ResearchQuestion-WorkPlan.md)
-
-
 ### Instructor 
 * [Andrea Wiggins](http://andreawiggins.com/)
+
+### Table of Contents
+1. [Read LICENCE](https://github.com/indraTeja/oldWomanCreek/blob/master/LICENSE)
+1. [Research Questions and Work Plan](https://github.com/indraTeja/oldWomanCreek/blob/master/ResearchQuestion-WorkPlan.md)
+1. [Team Member](#in-su-ku--team-members)
+1. [Datasets](#datasets-clipboard)
+1. [Tools](#tools)
 
 ### 'In-Su-Ku' : Team Members
 1. Indra Teja Chintakayala
