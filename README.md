@@ -5,9 +5,9 @@
 * [Andrea Wiggins](http://andreawiggins.com/)
 
 ### Table of Contents
-[Read LICENCE](https://github.com/indraTeja/oldWomanCreek/blob/master/LICENSE)
+  [Read LICENCE](https://github.com/indraTeja/oldWomanCreek/blob/master/LICENSE)
 
-[Research Questions and Work Plan](https://github.com/indraTeja/oldWomanCreek/blob/master/ResearchQuestion-WorkPlan.md)
+  [Research Questions and Work Plan](https://github.com/indraTeja/oldWomanCreek/blob/master/ResearchQuestion-WorkPlan.md)
 1. [Team Member](#in-su-ku--team-members)
 1. [Datasets](#datasets-clipboard)
 1. [Tools](#tools)
