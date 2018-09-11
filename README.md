@@ -2,6 +2,8 @@
 ## _ISQA8086 - Data to Decision_ - [University of Nebraska at Omaha](https://www.unomaha.edu/) :school:
 [Read LICENCE](https://github.com/indraTeja/oldWomanCreek/blob/master/LICENSE)
 
+[Research Questions and Work Plan](https://github.com/indraTeja/oldWomanCreek/blob/master/ResearchQuestion-WorkPlan.md)
+
 ### Instructor 
 * [Andrea Wiggins](http://andreawiggins.com/)
 
