@@ -5,7 +5,7 @@
 1. [Bald Eagle Monitoring](#2-bald-eagle-monitoring)
 1. [Tasks](#3-tasks)
 1. [Target Audience](#4-target-audience)
-1. [Work Plan](https://github.com/indraTeja/oldWomanCreek/blob/master/GanttChart.pdf)
+1. [Work Plan - Gantt Chart](https://github.com/indraTeja/oldWomanCreek/blob/master/GanttChart.pdf)
 
 ### 1. Avian Monitoring
 * Birds response to different weather conditions in different bird habitats.
