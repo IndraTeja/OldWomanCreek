@@ -1,10 +1,10 @@
 ## Research Questions and Tasks:
 
 ### Table of Contents
-1. [Avian Monitoring](#avian-monitoring)
-1. [Bald Eagle Monitoring](#bald-eagle-monitoring)
-1. [Tasks](#tasks)
-1. [Target Audience](#target-audience)
+1. [Avian Monitoring](#1-avian-monitoring)
+1. [Bald Eagle Monitoring](#2-bald-eagle-monitoring)
+1. [Tasks](#3-tasks)
+1. [Target Audience](#4-target-audience)
 1. [Work Plan](https://github.com/indraTeja/oldWomanCreek/blob/master/GanttChart.pdf)
 
 ### 1. Avian Monitoring
