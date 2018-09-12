@@ -13,7 +13,7 @@
 
   [Research Questions and Work Plan](https://github.com/indraTeja/oldWomanCreek/blob/master/ResearchQuestion-WorkPlan.md)
 
-### 'In-Su-Ku' : Team Members
+### 'In-Su-Ka' : Team Members
 1. Indra Teja Chintakayala
 2. Wancheng Sun
 3. Kalpana Jha
