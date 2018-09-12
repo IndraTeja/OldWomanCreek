@@ -39,5 +39,5 @@ ___
 * Class of ISQA 8086 Fall 2018
 
 ___
-### 5. [Work Plan](https://github.com/indraTeja/oldWomanCreek/blob/master/GanttChart.pdf)
+### 5. [Work Plan - Gantt Chart](https://github.com/indraTeja/oldWomanCreek/blob/master/GanttChart.pdf)
 
