@@ -12,7 +12,7 @@
 * What are the main factors influencing the bird to choose habitats?
 * Compare the temperatures to see what is the comfortable temperature for the birds.
 * Compare the Avian encounters from 1996-99 vs 2016-2018.
-* Perform feasible data comparisons using eBird datasets and NERRS SWMP data. 
+* Perform feasible data comparisons using eBird datasets and [NERRS SWMP data](https://cdmo.baruch.sc.edu/). 
 * Identify endangered species dataset and compare with point-count data(OWC).
 
 ### 2. Bald Eagle Monitoring:
