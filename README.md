@@ -5,7 +5,7 @@
 * [Andrea Wiggins](http://andreawiggins.com/)
 
 ### Table of Contents
-1. [Team Member](#in-su-ku--team-members)
+1. [Team Member](#in-su-ka--team-members)
 1. [Datasets](#datasets-clipboard)
 1. [Tools](#tools)
 
