@@ -38,8 +38,8 @@ ___
 
 ___
 ### 4. Target Audience
-* Client: Old Woman Creek, Huron, OH
-* Class of ISQA 8086 Fall 2018
+* Name: Emily Kuzmick 
+* Organization: Old Woman Creek, Huron, OH
 
 ___
 ### 5. [Work Plan - Gantt Chart](https://github.com/indraTeja/oldWomanCreek/blob/master/GanttChart.pdf)
