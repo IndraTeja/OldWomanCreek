@@ -45,6 +45,7 @@ ___________
 Non Profit, Governmental
 
 **Mission:** 
+promote public awareness and appreciation of the uniqueness of the estuary and supports stewardship programs that sustain the ecological integrity of Old Woman Creek.
 
 **Stakeholders (who/what they serve/support):**
 
