@@ -1,5 +1,8 @@
-# Audience Profile
-=====
-**`Name`:** Emily Kuzmick
+## Audience Profile
 
-**`Organization:`** Old Woman Creek National Estuarine Research Reserve
+=====
+
+**Name:** Emily Kuzmick
+
+**Organization:** Old Woman Creek National Estuarine Research Reserve
+
