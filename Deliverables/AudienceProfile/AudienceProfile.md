@@ -1,6 +1,5 @@
 ## Audience Profile
 
-______________
 
 **Name:** Emily Kuzmick
 
@@ -55,11 +54,14 @@ _Culture_:
 
 Both individual & organizational
 
-**Data capabilities (maturity/literacy)**
+**Data capabilities (maturity/literacy)**:
 
-**Requirements/needs**
 
-**Priorities**
+**Requirements/needs**:
 
-**Opportunities**
+
+**Priorities**:
+
+
+_Opportunities_
 
