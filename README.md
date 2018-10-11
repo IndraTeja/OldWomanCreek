@@ -1,12 +1,10 @@
-# :deciduous_tree::evergreen_tree:[Old Woman Creek](https://goo.gl/maps/LbCWxcjZbv12) - Team Project
+# :deciduous_tree::evergreen_tree:[Old Woman Creek](https://goo.gl/maps/LbCWxcjZbv12) - Team Project 
 ## _ISQA8086 - Data to Decision_ - [University of Nebraska at Omaha](https://www.unomaha.edu/) :school:
 
 ### Instructor 
 * [Andrea Wiggins](http://andreawiggins.com/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-[![HitCount](http://hits.dwyl.io/indraTeja/OldWomanCreek.svg)](http://hits.dwyl.io/indraTeja/OldWomanCreek)
 
 ________
 #### Table of Contents
@@ -31,3 +29,6 @@ iii. [Tools](#tools)
 ### Tools 
 * [R Studio](https://www.rstudio.com/products/rstudio/download/)
 * [R Programming](https://www.rstudio.com/resources/cheatsheets/)
+
+
+[![HitCount](http://hits.dwyl.io/indraTeja/OldWomanCreek.svg)](http://hits.dwyl.io/indraTeja/OldWomanCreek)
