@@ -3,17 +3,18 @@
 
 ### Instructor 
 * [Andrea Wiggins](http://andreawiggins.com/)
-
+________
 #### Table of Contents
-1. [Team Member](#in-su-ka--team-members)
-1  [Datasets](#datasets-clipboard)
-1. [Tools](#tools)
-1. []
+i.   [Team Member](#in-su-ka--team-members)
+
+ii.  [Datasets](#datasets-clipboard)
+
+iii. [Tools](#tools)
+
+1. [WorkPlan](https://github.com/indraTeja/OldWomanCreek/tree/master/Deliverables/WorkPlan)
 1. [Audience Profile](https://github.com/indraTeja/OldWomanCreek/blob/master/Deliverables/AudienceProfile/AudienceProfile.md)
 
   [Read LICENCE](https://github.com/indraTeja/oldWomanCreek/blob/master/LICENSE)
-
-  [Research Questions and Work Plan](https://github.com/indraTeja/oldWomanCreek/blob/master/ResearchQuestion-WorkPlan.md)
 
 ### 'In-Su-Ka' : Team Members
 1. Indra Teja Chintakayala
