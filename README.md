@@ -28,5 +28,8 @@ iii. [Tools](#tools)
 * [R Studio](https://www.rstudio.com/products/rstudio/download/)
 * [R Programming](https://www.rstudio.com/resources/cheatsheets/)
 
+### R Packages
+* [Tidyverse]()
+* [knit]()
 
 [![HitCount](http://hits.dwyl.io/indraTeja/OldWomanCreek.svg)](http://hits.dwyl.io/indraTeja/OldWomanCreek)
