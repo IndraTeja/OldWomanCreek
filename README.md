@@ -3,6 +3,8 @@
 
 ### Instructor 
 * [Andrea Wiggins](http://andreawiggins.com/)
+
+[![Build Status](https://travis-ci.org/indraTeja/OldWomanCreek.png?branch=master)](https://travis-ci.org/indraTeja/OldWomanCreek)
 ________
 #### Table of Contents
 i.   [Team Member](#in-su-ka--team-members)
