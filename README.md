@@ -4,6 +4,8 @@
 ### Instructor 
 * [Andrea Wiggins](http://andreawiggins.com/)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 [![Build Status](https://travis-ci.org/indraTeja/OldWomanCreek.png?branch=master)](https://travis-ci.org/indraTeja/OldWomanCreek)
 ________
 #### Table of Contents
@@ -15,8 +17,6 @@ iii. [Tools](#tools)
 
 1. [WorkPlan](https://github.com/indraTeja/OldWomanCreek/tree/master/Deliverables/WorkPlan)
 1. [Audience Profile](https://github.com/indraTeja/OldWomanCreek/blob/master/Deliverables/AudienceProfile/AudienceProfile.md)
-
-  [Read LICENCE](https://github.com/indraTeja/oldWomanCreek/blob/master/LICENSE)
 
 ### 'In-Su-Ka' : Team Members
 1. Indra Teja Chintakayala
