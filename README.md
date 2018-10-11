@@ -6,11 +6,6 @@
 
 ________
 #### Table of Contents
-i.   [Team Member](#in-su-ka--team-members)
-
-ii.  [Datasets](#datasets-clipboard)
-
-iii. [Tools](#tools)
 
 1. [WorkPlan](https://github.com/indraTeja/OldWomanCreek/tree/master/Deliverables/WorkPlan)
 1. [Audience Profile](https://github.com/indraTeja/OldWomanCreek/blob/master/Deliverables/AudienceProfile/AudienceProfile.md)
