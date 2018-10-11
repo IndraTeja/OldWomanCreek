@@ -6,7 +6,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[![Build Status](https://travis-ci.org/indraTeja/OldWomanCreek.png?branch=master)](https://travis-ci.org/indraTeja/OldWomanCreek)
+[![HitCount](http://hits.dwyl.io/indraTeja/OldWomanCreek.svg)](http://hits.dwyl.io/indraTeja/OldWomanCreek)
+
 ________
 #### Table of Contents
 i.   [Team Member](#in-su-ka--team-members)
