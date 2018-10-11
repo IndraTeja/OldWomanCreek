@@ -41,27 +41,46 @@ Her interests include wildlife species management and monitoring for conservatio
 ___________
 
 ### Organizational Details
+
 **Sector**: 
+
 Non Profit, Governmental
 
+
 **Mission:** 
+
 promote public awareness and appreciation of the uniqueness of the estuary and supports stewardship programs that sustain the ecological integrity of Old Woman Creek.
+
 
 **Stakeholders (who/what they serve/support):**
 
+Emily Kuzmick
+
+Old Woman Creek
+
 _Strengths & weaknesses_:
 
+
 _Culture_:
+
 
 Both individual & organizational
 
 **Data capabilities (maturity/literacy)**:
 
+Old Woman Creek and their staff have done good job in data management with less margin for inconsistency. Their data capabilities are moderate. Maturity of data is good, they are using this data insights for basic analysis using excel charts as of now. Their literacy related to data is good and they did produce good details explaining the details about their data.
+
+She is capable of handling the Basic to Advanced level data analysis in Excel. 
 
 **Requirements/needs**:
 
+Emily and their team requires us to our team to work on their two datasets and provide insights which they can use for their management or organizational decisions. They want meaning visualizations from the datasets, with good documentation, presentable and reproducible visualizations using the same tool. 
 
 **Priorities**:
+
+Old Woman Creek and Emily prioritized the tasks based on two major datasets.
+
+They want to prioritize task based on thse datasets : Avian Monitoring, Bald Eagle Monitoring. Their priotity is to reuse or reproduce the same techniques or methods that we use on larger, similar or different datasets. They want the same to be presentable at BioBlitz 2020, which is to be held at Old Woman Creek, OH.
 
 
 _Opportunities_
