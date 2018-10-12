@@ -62,13 +62,11 @@ Both individual & organizational
 
 _Strengths & weaknesses_:
 
-Since the site offers hiking, overlooking and visitor centers, visitors, scientists and people who interest estuarine ecosystems can watch close-up of the varieties of species based on habitat preferences. The existence of Old Woman Creek is to provide the opportunities for scientists and visitors to observe and track how the climate change affect the species choosing their habitats.
-
+Since with so many types of habitats, Old Woman Creek is protected as State Nature Preserve and National Estuarine Research Reserve, which is also served as a field laboratory that provides lots of opportunities for scientists to study the naturally functioning system and how the natural affect the organisms. For visitors, they can learn about the Great Lakes, Lake Erie water problems, northern Ohio weather and its effects on the estuary, and diverse habitats found on the preserve. 
 
 _Culture_:
 
-Old Woman Creek is a rich research site for education from primary school to graduate level study and offers the opportunities to the individuals and organizations who are interesed in estuarine ecosystems.
-
+Old Woman Creek is a rich research site for education from primary school to graduate level study and offers the opportunities to the individuals and organizations who are interesed estuarine ecosystems can watch close-up of the varieties of species based on habitat preferences.
 
 **Data capabilities (maturity/literacy)**:
 
