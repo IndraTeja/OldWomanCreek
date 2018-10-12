@@ -67,6 +67,8 @@ Since the site offers hiking, overlooking and visitor centers, visitors, scienti
 
 _Culture_:
 
+Old Woman Creek is a rich research site for education from primary school to graduate level study and offers the opportunities to the individuals and organizations who are interesed in estuarine ecosystems.
+
 
 **Data capabilities (maturity/literacy)**:
 
