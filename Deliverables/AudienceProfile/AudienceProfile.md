@@ -59,6 +59,7 @@ Emily Kuzmick
 Old Woman Creek
 
 _Strengths & weaknesses_:
+
 Since the site offers hiking, overlooking and visitor centers, visitors, scientists and people who interest estuarine ecosystems can watch close-up of the varieties of species based on habitat preferences. The existence of Old Woman Creek is to provide the opportunities for scientists and visitors to observe and track how the climate change affect the species choosing their habitats.
 
 
