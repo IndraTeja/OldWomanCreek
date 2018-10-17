@@ -9,7 +9,7 @@ ________
 
 1. [WorkPlan](https://github.com/indraTeja/OldWomanCreek/tree/master/Deliverables/WorkPlan)
 1. [Audience Profile](https://github.com/indraTeja/OldWomanCreek/blob/master/Deliverables/AudienceProfile/AudienceProfile.md)
-1. [Data Cleaning Documentation]()
+1. [Data Cleaning Documentation](https://github.com/indraTeja/OldWomanCreek/tree/master/Deliverables/DataCleaningDoc)
 
 ### 'In-Su-Ka' : Team Members
 1. Indra Teja Chintakayala
@@ -25,7 +25,7 @@ ________
 * [R Programming](https://www.rstudio.com/resources/cheatsheets/)
 
 ### R Packages
-* [Tidyverse]()
-* [knit]()
+* [Tidyverse](https://www.tidyverse.org/)
+* [knitr](https://cran.r-project.org/web/packages/knitr/index.html)
 
 [![HitCount](http://hits.dwyl.io/indraTeja/OldWomanCreek.svg)](http://hits.dwyl.io/indraTeja/OldWomanCreek)
