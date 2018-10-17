@@ -7,7 +7,7 @@
 ________
 #### Table of Contents
 
-1. [WorkPlan](https://github.com/indraTeja/OldWomanCreek/tree/master/Deliverables/WorkPlan)
+1. [Work Plan & Research Questions](https://github.com/indraTeja/OldWomanCreek/tree/master/Deliverables/WorkPlan)
 1. [Audience Profile](https://github.com/indraTeja/OldWomanCreek/blob/master/Deliverables/AudienceProfile/AudienceProfile.md)
 1. [Data Cleaning Documentation](https://github.com/indraTeja/OldWomanCreek/tree/master/Deliverables/DataCleaningDoc)
 
