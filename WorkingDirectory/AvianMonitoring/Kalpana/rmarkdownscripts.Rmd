@@ -1,0 +1,54 @@
+---
+title: "Avian Monitoring"
+author: "kalpana jha"
+date: "October 30, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+avian <- read.csv("C:/Users/Kalpana/Desktop/Old Woman Creek/AvianData.csv", header = TRUE, stringsAsFactors=FALSE)
+
+##attach(avian)
+
+avian$Date<-as.Date(avian$Date)
+
+## the code below removes all the empty lines 
+library(tidyverse)
+avian <- filter(avian, !(is.na(EABL) & is.na(WBNU) & is.na(COYE)	 & is.na(EAKI) & is.na(MALL) & is.na(CAGO) & is.na(MODO) & is.na(MAWR) & is.na(CATE) & is.na(GREG) & is.na(WODU) & is.na(GBHE) & is.na(RBWO) & is.na(WOTH) & is.na(GRFL) & is.na(AMRE) & is.na(EATO)))
+
+str(avian)
+
+summary(avian)
+
+
+```
+```{r}
+boxplot(avian$EABL, main = 'Eastern Blue Bird', ylab='No. observed')
+```
+```{r}
+CAGO.ts<- ts(avian$CAGO,start = c(2016), frequency = 365)
+  plot(CAGO.ts, main = 'Canada Goose')
+```
+
+
+
+
+
