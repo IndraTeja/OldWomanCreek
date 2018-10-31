@@ -1,9 +1,9 @@
-Date,Nest Location,Observer's location to nest,Nest Status,Nest Condition,Observer,Temp,Wind-Velocity (mph),Wind-Direction,Precipatation,Cloud Cover,Equipment,Start Time,End Time,Time of observation,# Birds Present & Plumages,# Birds on Nest,Behavior of Adults,Approx. # of Eggs,Approx. # of Chicks,Additional Comments
+Date,NestLocation,ObserverLocation,NestStatus,NestCondition,Observer,Temp,Wind-Velocity(mph),Wind-Direction,Precipatation,CloudCover,Equipment,StartTime,EndTime,TimeOfObservation,#BirdsPresent&Plumages,#BirdsonNest,BehaviorofAdults,Approx.#ofEggs,Approx. #ofChicks,AdditionalComments
 4/2/1996,,,I,,Feix,40,,,,,,,,,,,,,,
-4/16/1996,West Nest 1,,I,,M. Bernhardt ,,,W,Rain,100,60X Spotting Scope,14:35,15:05,14:35,1A,1A,,,,
-4/17/1996,West Nest 1,,I,,M. Bernhardt ,,,W,Rain,101,60X Spotting Scope,14:35,15:05,14:50,2A,1A,flew overhead ,,,
-4/18/1996,West Nest 1,,I,,M. Bernhardt ,,,W,Rain,102,60X Spotting Scope,14:35,15:05,14:53,1A 1J,1A,,,,
-4/19/1996,West Nest 1,,I,,M. Bernhardt ,,,W,Rain,103,60X Spotting Scope,14:35,15:05,15:03,1A,1A,,,,
+4/16/1996,West Nest 1,,I,,M. Bernhardt ,40,,W,Rain,100,60X Spotting Scope,14:35,15:05,14:35,1A,1A,,,,
+4/17/1996,West Nest 1,,I,,M. Bernhardt ,40,,W,Rain,101,60X Spotting Scope,14:35,15:05,14:50,2A,1A,flew overhead ,,,
+4/18/1996,West Nest 1,,I,,M. Bernhardt ,40,,W,Rain,102,60X Spotting Scope,14:35,15:05,14:53,1A 1J,1A,,,,
+4/19/1996,West Nest 1,,I,,M. Bernhardt ,40,,W,Rain,103,60X Spotting Scope,14:35,15:05,15:03,1A,1A,,,,
 5/1/1996,West Nest 1,,I,,M Bernhardt,50,15,S,,50,SScope/Bino,13:30,14:20,13:30,1A,1A,,,,
 5/2/1996,West Nest 1,,I,,M Bernhardt,50,15,S,,51,SScope/Bino,13:30,14:20,13:45,1A 1J,1A,,,,
 5/3/1996,West Nest 1,,I,,M Bernhardt,50,15,S,,52,SScope/Bino,13:30,14:20,14:15,1A 1J,1A,settles in nest,,,
@@ -13,7 +13,7 @@ Date,Nest Location,Observer's location to nest,Nest Status,Nest Condition,Observ
 5/4/1996,West Nest 1,,I,, M.Bernhardt/Altstaetler,50,15,S,,53,SScope/Bino,11:00,12:15,11:30,2A,1A,both fly away and  one returns,,,
 5/5/1996,West Nest 1,,I,, M.Bernhardt/Altstaetler,50,15,S,,54,SScope/Bino,11:00,12:15,11:42,2A,1A,,,,
 5/6/1996,West Nest 1,,I,, M.Bernhardt/Altstaetler,50,15,S,,55,SScope/Bino,11:00,12:15,12:15,2A,1A,changing incubating positions,,,
-5/1/1996,West Nest 1,,I,,Wright/Boyer,,,SE,,100,,9:00,9:50,10:15,1A 1J,1A,,,,
+5/1/1996,West Nest 1,,I,,Wright/Boyer,50,,SE,,100,,9:00,9:50,10:15,1A 1J,1A,,,,
 5/3/1996,West Nest 1,,I,,Boyer,53,10,SE,,80,,9:00,9:45,9:00,1A,1A,,,,
 5/3/1996,West Nest 1,,I,,Boyer,53,10,SE,,80,,9:00,9:45,9:05,1A 1J,1A,J chsed away by adult,,,
 5/3/1996,West Nest 1,,I,,Boyer,53,10,SE,,80,,9:00,9:45,9:13,1J,0,J took fish close to nest,,,
@@ -39,30 +39,30 @@ Date,Nest Location,Observer's location to nest,Nest Status,Nest Condition,Observ
 5/6/1996,West Nest 1,,I,,Feix/Wright,50,,,,,SScope/Bino,8:30,11:45,9:30,2A,1A,,,,
 5/6/1996,West Nest 1,,I,,Feix/Wright,50,,,,,SScope/Bino,8:30,11:45,10:00,0,0,No birds in nest,,,
 5/6/1996,West Nest 1,,I,,Feix/Wright,50,,,,,SScope/Bino,8:30,11:45,11:45,1A,1A ,,,,
-5/7/1996,West Nest 1,,I,,Feix/Altstaetler,,,,,100,,8:15,16:30,8:15,1A,1A,picks in nest,,,
-5/7/1996,West Nest 1,,I,,Feix/Altstaetler,,,,,100,,8:15,16:30,8:45,1A,1A,"rolls egg, picks in nest ",,,
-5/7/1996,West Nest 1,,I,,Feix/Altstaetler,,,,,100,,8:15,16:30,10:15,1A,1A,still picking in front,,,
-5/7/1996,West Nest 1,,I,,Feix/Altstaetler,,,,,100,,8:15,16:30,10:35,1A 3J,1A,waddling in nest,,,
-5/7/1996,West Nest 1,,I,,Feix/Altstaetler,,,,,100,,8:15,16:30,15:30,1A,1A ,,,,
-5/7/1996,West Nest 1,,I,,Feix/Altstaetler,,,,,100,,8:15,16:30,16:30,1A,1A ,minimal movement,,,
+5/7/1996,West Nest 1,,I,,Feix/Altstaetler,50,,,,100,,8:15,16:30,8:15,1A,1A,picks in nest,,,
+5/7/1996,West Nest 1,,I,,Feix/Altstaetler,50,,,,100,,8:15,16:30,8:45,1A,1A,"rolls egg, picks in nest ",,,
+5/7/1996,West Nest 1,,I,,Feix/Altstaetler,50,,,,100,,8:15,16:30,10:15,1A,1A,still picking in front,,,
+5/7/1996,West Nest 1,,I,,Feix/Altstaetler,50,,,,100,,8:15,16:30,10:35,1A 3J,1A,waddling in nest,,,
+5/7/1996,West Nest 1,,I,,Feix/Altstaetler,50,,,,100,,8:15,16:30,15:30,1A,1A ,,,,
+5/7/1996,West Nest 1,,I,,Feix/Altstaetler,50,,,,100,,8:15,16:30,16:30,1A,1A ,minimal movement,,,
 5/8/1996,West Nest 1,,I,,Altstaetler,58,3,S,,100,Scope,14:45,16:45,14:45,1J,0,,,,
-5/8/1996,West Nest 1,,I,,Feix,,,,Rain,100,,8:15,14:10,8:15,1A,0,,,,
-5/8/1996,West Nest 1,,I,,Feix,,,,Rain,100,,8:15,14:10,8:20,1A 1J,1A,1A flies to 1J appear to chase off,,,
-5/8/1996,West Nest 1,,I,,Feix,,,,Rain,100,,8:15,14:10,8:45,1A,1A,1A bends down steps over something and sits straight down,,,
-5/8/1996,West Nest 1,,I,,Feix,,,,Rain,100,,8:15,14:10,13:15,1A,1A,,,,
-5/8/1996,West Nest 1,,I,,Feix,,,,Rain,100,,8:15,14:10,13:40,1A,1A,below nest preening,,,
-5/9/1996,West Nest 1,,I,,Feix,,,,,,,12:00,17:15,12:00,1A 1J,0,,,,
+5/8/1996,West Nest 1,,I,,Feix,58,,,Rain,100,,8:15,14:10,8:15,1A,0,,,,
+5/8/1996,West Nest 1,,I,,Feix,58,,,Rain,100,,8:15,14:10,8:20,1A 1J,1A,1A flies to 1J appear to chase off,,,
+5/8/1996,West Nest 1,,I,,Feix,58,,,Rain,100,,8:15,14:10,8:45,1A,1A,1A bends down steps over something and sits straight down,,,
+5/8/1996,West Nest 1,,I,,Feix,58,,,Rain,100,,8:15,14:10,13:15,1A,1A,,,,
+5/8/1996,West Nest 1,,I,,Feix,58,,,Rain,100,,8:15,14:10,13:40,1A,1A,below nest preening,,,
+5/9/1996,West Nest 1,,I,,Feix,58,,,,,,12:00,17:15,12:00,1A 1J,0,,,,
 5/10/1996,West Nest 1,,A,,M. Bernhardt,70,5,SW,,50,SScope/Bino,8:10,8:50,8:10,,0,No nest activity,,,
 5/11/1996,West Nest 1,,A,,Feix,40,12,N,,100,,12:30,16:45,,,0,No nest activity,,,
 5/13/1996,West Nest 1,,A,,Feix,40,14,W,,,,8:30,,14:00,,0,ODW retrieved 2 eggs from nest,,,
 1/28/1997,West Nest 1,,B,,Feix,23,16,NW,light snow,100,SScope/Bino,8:30,8:45,8:30,2A 2J,1A,1A rearraning stick in nest,,,
 1/29/1997,West Nest 1,,B,,Feix,18,,,light snow,100,,10:30,10:30,10:30,1A,1A,adding sticks to nest,,,
-1/30/1997,West Nest 1,,B,,Feix,,,,0,75,,8:30,8:45,8:30,1A,0,adding sticks to nest,,,
+1/30/1997,West Nest 1,,B,,Feix,18,,,0,75,,8:30,8:45,8:30,1A,0,adding sticks to nest,,,
 1/31/1997,West Nest 1,,B,,Obermiller ,38,15,S,0,90,Spotting Scope,16:30,16:45,16:30,1A 1J,0,,,,
 2/1/1997,West Nest 1,,B,,Wright,40,8,W,0,100,Spotting Scope,13:20,14:10,13:20,6J,0,,,,
 2/1/1997,West Nest 1,,B,,Wright,40,8,W,0,100,Spotting Scope,13:20,14:10,13:50,2A 7J,2A,,,,
 2/2/1997,West Nest 1,,B,,Feix,44,,,,100,,12:45,13:30,13:15,8J,1J,1J flew into nest and picked at sticks,,,
-2/7/1997,West Nest 1,,B,,Feix,,,,light snow,100,,8:30,8:30,8:30,7J,0,,,,
+2/7/1997,West Nest 1,,B,,Feix,44,,,light snow,100,,8:30,8:30,8:30,7J,0,,,,
 2/8/1997,West Nest 1,,B,,Wright,30,17,W,light snow,100,SScope/Bino,10:30,11:00,10:30,2A 4j,2A,,,,
 2/9/1997,West Nest 1,,B,,Wright,37,4,,0,20,Spotting Scope,10:00,10:32,10:00,2A 5J,2A,both on nest moving nesting material around,,,
 2/9/1997,West Nest 1,,B,,Wright,37,4,,0,20,Spotting Scope,10:00,10:32,10:15,2A 5J ,2A,adult attacks  juv with talons mid-air,,,
@@ -73,8 +73,8 @@ Date,Nest Location,Observer's location to nest,Nest Status,Nest Condition,Observ
 2/21/1997,West Nest 1,,B,,Wright,60,20,S,0,100,Spotting Scope,8:30,9:20,8:30,2A 2J,2A,,,,
 2/21/1997,West Nest 1,,B,,Wright,60,20,S,0,100,Spotting Scope,8:30,9:20,8:44,2A 4J,0:00,,,,
 2/21/1997,West Nest 1,,B,,Wright,60,20,S,0,100,Spotting Scope,8:30,9:20,8:50,2A 4 J ,0:00,adults vocalize and fly after Juv,,,
-2/26/1997,West Nest 1,,B,,Wright,,,,,100,,9:45,9:45,9:45,2A 3J,2A, active nest building,,,
-2/28/1997,West Nest 1,,B,,Linda Feix,,,,,,,8:30,8:31,8:30,2A 10 J,2A,nest building ,,,
+2/26/1997,West Nest 1,,B,,Wright,60,,,,100,,9:45,9:45,9:45,2A 3J,2A, active nest building,,,
+2/28/1997,West Nest 1,,B,,Linda Feix,60,,,,,,8:30,8:31,8:30,2A 10 J,2A,nest building ,,,
 3/4/1997,West Nest 1,,B,,Feix,62,8,SW,0,0,,8:45,9:13,8:45,2A,1A,,,,
 3/4/1997,West Nest 1,,B,,Feix,62,8,SW,0,0,,8:45,9:13,9:13,1A ,1A,rolls eggs settles back into nest,,,
 3/6/1997,West Nest 1,,B,,Feix,32,13,W,Snow,100,,8:45,8:45,8:45,3J,0,,,,
@@ -95,30 +95,30 @@ Date,Nest Location,Observer's location to nest,Nest Status,Nest Condition,Observ
 3/12/1997,West Nest 1,,I,,Link,42,,,0,5,45x scope,14:00,15:00,14:15,2A 1J,1A,rolls eggs,,,
 3/12/1997,West Nest 1,,I,,Link,42,,,0,5,45x scope,14:00,15:00,14:45,2A 1J,1A,,,,
 3/13/1997,West Nest 1,,I,,Feix,34,3,SW,0,100,,8:30,8:30,8:30,1A 1J,1A,,,,
-3/14/1997,West Nest 1,,I,,Feix,,,,,100,,13:45,14:05,13:45,2A,1A,,,,
-3/14/1997,West Nest 1,,I,,Feix,,,,,100,,13:45,14:05,14:05,2A,1A,rolls egg,,,
+3/14/1997,West Nest 1,,I,,Feix,34,,,,100,,13:45,14:05,13:45,2A,1A,,,,
+3/14/1997,West Nest 1,,I,,Feix,34,,,,100,,13:45,14:05,14:05,2A,1A,rolls egg,,,
 3/14/1997,West Nest 1,,I,,Feix,49,14,E,Rain,100,scope,8:45,8:45,8:45,2A 1J,1A,,,,
 3/16/1997,West Nest 1,,I,,Feix,31,,,0,0,,12:15,13:00,12:15,1A ,1A,low in nest,,,
 3/16/1997,West Nest 1,,I,,Feix,31,,,0,0,,12:15,13:00,12:30,2A,1A,,,,
 3/16/1997,West Nest 1,,I,,Feix,31,,,0,0,,12:15,13:00,12:35,2A 3J,1A,,,,
 3/16/1997,West Nest 1,,I,,Feix,31,,,0,0,,12:15,13:00,12:45,2A,1A,rolls egg,,,
 3/16/1997,West Nest 1,,I,,Feix,31,,,0,0,,12:15,13:00,12:50,2A,1A,,,,
-3/17/1997,West Nest 1,,I,,Feix,,,,0,100,,11:15,12:15,11:15,1A,1A,,,,
-3/17/1997,West Nest 1,,I,,Feix,,,,0,100,,11:15,12:15,11:25,1A,1A,rolls eggs and waddles down in nest,,,
-3/17/1997,West Nest 1,,I,,Feix,,,,0,100,,11:15,12:15,11:50,2A,1A,male perched above nest,,,
-3/17/1997,West Nest 1,,I,,Feix,,,,0,100,,11:15,12:15,12:05,2A,1A,female leaves male immediately follows,,,
-3/17/1997,West Nest 1,,I,,Feix,,,,0,100,,11:15,12:15,12:06,1A,1A,male rolls egg and waddles down in nest,,,
+3/17/1997,West Nest 1,,I,,Feix,31,,,0,100,,11:15,12:15,11:15,1A,1A,,,,
+3/17/1997,West Nest 1,,I,,Feix,31,,,0,100,,11:15,12:15,11:25,1A,1A,rolls eggs and waddles down in nest,,,
+3/17/1997,West Nest 1,,I,,Feix,31,,,0,100,,11:15,12:15,11:50,2A,1A,male perched above nest,,,
+3/17/1997,West Nest 1,,I,,Feix,31,,,0,100,,11:15,12:15,12:05,2A,1A,female leaves male immediately follows,,,
+3/17/1997,West Nest 1,,I,,Feix,31,,,0,100,,11:15,12:15,12:06,1A,1A,male rolls egg and waddles down in nest,,,
 3/17/1997,West Nest 1,,I,,Obermiller ,40,7,S,0,95,,13:00,14:05,13:00,2A 1J,1A,tight on nest,,,
 3/18/1997,West Nest 1,,I,,Obermiller ,40,7,S,0,95,,13:00,14:05,13:07,1A,1A,rolls egg,,,
 3/19/1997,West Nest 1,,I,,Obermiller ,40,7,S,0,95,,13:00,14:05,13:40,1A,1A,rolls egg,,,
 3/20/1997,West Nest 1,,I,,Obermiller ,40,7,S,0,95,,13:00,14:05,13:45,2A,1A,switch parents in nest and waddles in tight,,,
-3/21/1997,West Nest 1,,I,,Obermiller/Feix,,,,0,0,,8:20,12:10,8:20,1A,1A,,,,
-3/22/1997,West Nest 1,,I,,Obermiller/Feix,,,,0,0,,8:20,12:10,8:25,1A,1A ,rolled eggs and reversed position,,,
-3/23/1997,West Nest 1,,I,,Obermiller/Feix,,,,0,0,,8:20,12:10,11:45,2A 2J,1A,tight in nest,,,
-3/24/1997,West Nest 1,,I,,Feix,,,,0,0,,8:30,8:30,8:30,1A,1A,,,,
-3/27/1997,West Nest 1,,I,,Feix,,14,SW,0,0,,8:30,9:10,8:30,2A,1A,low in nest,,,
-3/28/1997,West Nest 1,,I,,Feix,,15,SW,0,0,,8:30,9:10,8:50,2A,1A,,,,
-3/29/1997,West Nest 1,,I,,Feix,,16,SW,0,0,,8:30,9:10,9:10,2A,1A,,,,
+3/21/1997,West Nest 1,,I,,Obermiller/Feix,40,,,0,0,,8:20,12:10,8:20,1A,1A,,,,
+3/22/1997,West Nest 1,,I,,Obermiller/Feix,40,,,0,0,,8:20,12:10,8:25,1A,1A ,rolled eggs and reversed position,,,
+3/23/1997,West Nest 1,,I,,Obermiller/Feix,40,,,0,0,,8:20,12:10,11:45,2A 2J,1A,tight in nest,,,
+3/24/1997,West Nest 1,,I,,Feix,40,,,0,0,,8:30,8:30,8:30,1A,1A,,,,
+3/27/1997,West Nest 1,,I,,Feix,40,14,SW,0,0,,8:30,9:10,8:30,2A,1A,low in nest,,,
+3/28/1997,West Nest 1,,I,,Feix,40,15,SW,0,0,,8:30,9:10,8:50,2A,1A,,,,
+3/29/1997,West Nest 1,,I,,Feix,40,16,SW,0,0,,8:30,9:10,9:10,2A,1A,,,,
 4/1/1997,West Nest 1,,I,,Obermiller/Feix,40,<5,N,0,10,,9:30,10:15,9:30,2A,1A,tight in nest picking material,,,
 4/1/1997,West Nest 1,,I,,Obermiller/Feix,40,<5,N,0,10,,9:30,10:15,10:00,2A 1J,1A,,,,
 4/1/1997,West Nest 1,,I,,Obermiller/Feix,40,<5,N,0,10,,9:30,10:15,10:15,2A ,1A,tight in nest rolls egg ,,,
@@ -131,12 +131,12 @@ Date,Nest Location,Observer's location to nest,Nest Status,Nest Condition,Observ
 4/14/1997,West Nest 1,,I,,M. Bernhardt ,40,,,0,40,Spotting Scope,8:15,14:22,8:40,3A,1A,bends down and settles in nest,,,
 4/14/1997,West Nest 1,,I,,M. Bernhardt ,40,,,0,40,Spotting Scope,8:15,14:22,14:22,2A,1A,birds stands then settles back in nest,,,
 4/15/1997,West Nest 1,,I,,Link,50,,,0,5,30X scope,15:00,16:30,15:00,1A,1A,sitting tight with wings to the side,,,
-4/17/1997,West Nest 1,,I,,M. Bernhardt ,,,N,Sleet/snow,100,,15:30,16:30,15:30,1A,1A,,,,
-4/17/1997,West Nest 1,,I,,M. Bernhardt ,,,N,Sleet/snow,100,,15:30,16:30,15:55,2A,2A,tears at fish,,,
-4/17/1997,West Nest 1,,I,,M. Bernhardt ,,,N,Sleet/snow,100,,15:30,16:30,16:03,3A,1A,adults switch positions incubating,,,
-4/17/1997,West Nest 1,,I,,M. Bernhardt ,,,N,Sleet/snow,100,,15:30,16:30,16:05,2A,2A,adult sits on edge then flies away,,,
-4/17/1997,West Nest 1,,I,,M. Bernhardt ,,,N,Sleet/snow,100,,15:30,16:30,16:08,2A,2A,adults switch place incubating  and pick at nest,,,
-4/17/1997,West Nest 1,,I,,M. Bernhardt ,,,N,Sleet/snow,100,,15:30,16:30,16:15,1A,1A,bends head down,,,
+4/17/1997,West Nest 1,,I,,M. Bernhardt ,50,,N,Sleet/snow,100,,15:30,16:30,15:30,1A,1A,,,,
+4/17/1997,West Nest 1,,I,,M. Bernhardt ,50,,N,Sleet/snow,100,,15:30,16:30,15:55,2A,2A,tears at fish,,,
+4/17/1997,West Nest 1,,I,,M. Bernhardt ,50,,N,Sleet/snow,100,,15:30,16:30,16:03,3A,1A,adults switch positions incubating,,,
+4/17/1997,West Nest 1,,I,,M. Bernhardt ,50,,N,Sleet/snow,100,,15:30,16:30,16:05,2A,2A,adult sits on edge then flies away,,,
+4/17/1997,West Nest 1,,I,,M. Bernhardt ,50,,N,Sleet/snow,100,,15:30,16:30,16:08,2A,2A,adults switch place incubating  and pick at nest,,,
+4/17/1997,West Nest 1,,I,,M. Bernhardt ,50,,N,Sleet/snow,100,,15:30,16:30,16:15,1A,1A,bends head down,,,
 4/18/1997,West Nest 1,,H,,M. Bernhardt,40,5,NW,0,0,Spotting Scope,8:15,9:15,8:15,1A,1A,,,,
 4/18/1997,West Nest 1,,H,,M. Bernhardt,40,5,NW,0,0,Spotting Scope,8:15,9:15,8:25,2A,1A,flies to edge of nest ,,,
 4/18/1997,West Nest 1,,H,,M. Bernhardt,40,5,NW,0,0,Spotting Scope,8:15,9:15,8:28,2A,1A,parents change places incubating and settle into nest,,,
@@ -145,12 +145,12 @@ Date,Nest Location,Observer's location to nest,Nest Status,Nest Condition,Observ
 4/18/1997,West Nest 1,,H,,M. Bernhardt,40,5,NW,0,0,Spotting Scope,8:15,9:15,9:13,1A,1A,settles  down into nest and picks at a stick,,,
 4/21/1997,West Nest 1,,H,,Linda Feix,40,0,,,50,,8:15,8:17,8:15,2A,2A,feeding and then stradling nest and sitting back down,,,
 4/24/1997,West Nest 1,,H,,Linda Feix,45,,,,0,,8:30,8:31,8:30,2A ,2A,feeding young -female resumes brooding position,,,
-4/27/1997,West Nest 1,,H,,Wright,,,,,85,Spotting Scope,9:50,10:30,9:50,1A,1A,,,,
-4/27/1997,West Nest 1,,H,,Wright,,,,,85,Spotting Scope,9:50,10:30,9:56,2A,2A,parents changed places and ,,,
-4/29/1997,West Nest 1,,H,,Linda Feix,,,,,,,8:20,9:50,8:20,1A,1A,picking at sticks,,,
-4/29/1997,West Nest 1,,H,,Linda Feix,,,,,,,8:20,9:50,9:50,2A ,1A,adult in broodign psture,,,
-5/2/1997,West Nest 1,,H,,M. Bernhardt ,,3,W,0,Hazy,,11:00,11:45,11:00,1A,1A,,,,
-5/2/1997,West Nest 1,,H,,M. Bernhardt ,,3,W,0,Hazy,,11:00,11:45,11:07,2A,2A,,,,
+4/27/1997,West Nest 1,,H,,Wright,45,,,,85,Spotting Scope,9:50,10:30,9:50,1A,1A,,,,
+4/27/1997,West Nest 1,,H,,Wright,45,,,,85,Spotting Scope,9:50,10:30,9:56,2A,2A,parents changed places and ,,,
+4/29/1997,West Nest 1,,H,,Linda Feix,45,,,,,,8:20,9:50,8:20,1A,1A,picking at sticks,,,
+4/29/1997,West Nest 1,,H,,Linda Feix,45,,,,,,8:20,9:50,9:50,2A ,1A,adult in broodign psture,,,
+5/2/1997,West Nest 1,,H,,M. Bernhardt ,45,3,W,0,Hazy,,11:00,11:45,11:00,1A,1A,,,,
+5/2/1997,West Nest 1,,H,,M. Bernhardt ,45,3,W,0,Hazy,,11:00,11:45,11:07,2A,2A,,,,
 5/4/1997,West Nest 1,,H,,Linda Feix,50,,,0,0,,16:00,16:30,16:00,1A,1A,,,,
 5/4/1997,West Nest 1,,H,,Linda Feix,50,,,0,0,,16:00,16:30,16:15,2A,1A,feeds snake to nestling,,2,
 5/4/1997,West Nest 1,,H,,Linda Feix,50,,,0,0,,16:00,16:30,16:30,1A,1A,feeding and eating,,,
@@ -178,7 +178,7 @@ Date,Nest Location,Observer's location to nest,Nest Status,Nest Condition,Observ
 4/15/1998,East Nest,,I,,Linda Feix,50,,,,100,,8:30,9:30,8:40,1A,1A,brooding behavior shown while female brings a clump of grass,,,
 4/15/1998,East Nest,,H,,Linda Feix,50,,,,100,,8:30,9:30,9:30,2A,1A,female gets up and regurgitates food to nestling,,1,
 4/23/1998,East Nest,,H,,Gene Wright,70,,,0,60,0,16:30,17:00,16:40,1A,1A,feeding  small bits of food ,,2,
-5/10/1998,,,H,,Wright and Feix,,,,,,,,,,,,,,,
+5/10/1998,,,H,,Wright and Feix,70,,,,,,,,,,,,,,
 2/11/1999,East Nest,,B,,Linda Feix,70,25,SW,0,0,40x  scope,13:00,13:00,13:00,3A 4J,0,working on nest,,,
 3/5/1999,East Nest,,I,,Gene Wright,33,2,S,0,100,40x  scope,8:15,8:45,8:15,2A 2J,2A,placing a clump of grass and corn stalk in nest,,,
 3/5/1999,East Nest,,I,,Gene Wright,33,2,S,0,100,40x  scope,8:15,8:45,8:22,1A 2J,1A,adult flew from nest,,,
@@ -200,8 +200,8 @@ Date,Nest Location,Observer's location to nest,Nest Status,Nest Condition,Observ
 4/20/1999,East Nest,,H,,Linda Feix,52,6,NW,0,75,45x scope,8:25,9:00,8:25,2A,2A,male brooding,,,
 4/20/1999,East Nest,,H,,Linda Feix,52,6,NW,0,75,45x scope,8:25,9:00,8:30,2A,2A,feeding chick,,1,may have food cache at end of nest
 4/20/1999,East Nest,,H,,Linda Feix,52,6,NW,0,75,45x scope,8:25,9:00,9:00,1A,0,female begins brooding ,,,
-4/21/1999,East Nest,,H,,Linda Feix,,,,Light rain,100,45x scope,8:30,9:15,8:30,1A,1A,,,,
-4/21/1999,East Nest,,H,,Linda Feix,,,,Light rain,100,45x scope,8:30,9:15,9:15,1A,1A,feeding chick,,,
+4/21/1999,East Nest,,H,,Linda Feix,52,,,Light rain,100,45x scope,8:30,9:15,8:30,1A,1A,,,,
+4/21/1999,East Nest,,H,,Linda Feix,52,,,Light rain,100,45x scope,8:30,9:15,9:15,1A,1A,feeding chick,,,
 5/12/1999,East Nest,,H,,Linda Feix,50,,,0,30,45x scope,8:15,8:15,8:15,2A,1A,feeding eaglets,,3,
 6/26/1999,East Nest,,H,,Linda Feix,90,,,0,0,45x scope,14:00,14:00,14:00,1A,0,active eaglets,,3,
 3/7/2016,Star Island,,I,,Emily Kuzmick,57,20,E,0,100%,Nikon 741-044,14:40,15:20,14:40,1A,1A,,,,
@@ -364,7 +364,7 @@ Date,Nest Location,Observer's location to nest,Nest Status,Nest Condition,Observ
 4/25/2016,Star Island,,H,,Jan,65,0,0,0,0,Nikon 741-044,10:30,12:15,11:02,2A,1A,,,,
 4/25/2016,Star Island,,H,,Jan,65,0,0,0,0,Nikon 741-044,10:30,12:15,11:10,1A,1A,changed position without care,,,
 4/25/2016,Star Island,,H,,Jan,65,0,0,0,0,Nikon 741-044,10:30,12:15,11:38,1A,1A,changed position at nest dug before settline,,,
-4/26/2016,Star Island,,H,,Jan,>61,0,0,0,Foggy,Nikon 741-044,10:29,11:25,,0,0,,,,
+4/26/2016,Star Island,,H,,Jan,61,0,0,0,Foggy,Nikon 741-044,10:29,11:25,,0,0,,,,
 4/27/2016,Star Island,,A,,Irwin Weinfeld,49,15,ENE,0,0,Nikon 741-044,10:50,11:40,,0,0,,,,
 2/6/2017,West Nest 2,West,B,Good,Hill's/Staff,50,15,NW,0,100,Binoc's/Scope,1500,1630,,0,0,,,0,Locating nest viewing sites
 2/12/2017,West Nest 2,West,B,Good,Steve Hill,41,25,W ,0,50,Binoc's/Scope,1505,1615,1520,2A,1A,1 Landed in tree,,0,The latesst arrival seemed to pass something to the one on/in nest
@@ -911,21 +911,21 @@ Date,Nest Location,Observer's location to nest,Nest Status,Nest Condition,Observ
 4/14/2017,West Nest 2,NE,H,Good,Steve Hill,52,15,NE,0,30,Binoc's/Scope,1445,1600,1542-1545,1A,1A,In nest,,2,Facing NW - wings slightly open
 4/14/2017,West Nest 2,NE,H,Good,Steve Hill,52,15,NE,0,30,Binoc's/Scope,1445,1600,1546-1553,1A,1A,In nest,,2,Stood up - eating - turned to E head in nest for a min then sat down moving sticks - facing E
 4/14/2017,West Nest 2,NE,H,Good,Steve Hill,52,15,NE,0,30,Binoc's/Scope,1445,1600,1600,1A,1A,In nest,,2,Head alternating between in nest & moving sticks
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1325-1340,1A,1A,In nest,,2,Mom in direct sun -beak open as if panting - can't see wings - watchful - looking around
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1347,1A,1A,In nest,,2,Stood up - turned N - head down - scooting around - turned to W - head down in nest - sat back up
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1351-1355,1A,1A,In nest,,2,Facing W
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1357,1A,1A,In nest,,2,Stood up turned S - head in nest several times - scooted around then turned W - head in nest several times - carefully sat back down
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1403,1A,1A,In nest,,2,On nest - wings slightly open - head bobbing some in nest
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1406,1A,1A,In nest,,2,Sitting quietly on nest facing W
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1407,1A,1A,In nest,,2,Moving up & down in nest - wings slightly open
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1410,1A,1A,In nest,,2,Stood up - head in nest - bobbing up & down - facing W
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1420-1430,1A,1A,In nest,,2,Finally sitting quietly facing W and looking E
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1432,1A,1A,In nest,,2,Stood up turned to E - very careful sitting back down - head in nest a couple of times
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1444,2A,1A,In nest,,2,1A flew by towards W - no call by Mom - stood up - turned S - head in nest - very careful sitting back down - flexed wings while up
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1450-1455,1A,1A,In nest,,2,Sitting quietly facing W then looking around & shifting back and forth on nest
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1508,1A,1A,In nest,,2,Facing E - very watchful
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1518,2A,0,,,2,Dad showed up - Mom immediately flew off - Dad stood on edge of nest for a minute or so then flew off - Mom immediately returned and sat on nest facing E
-4/15/2017,West Nest 2,NE,H,Good,Steve Hill,74-85,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1522-1540,1A,1A,In nest,,2,Mom quietly on nest facing E - wings maybe open some -often looking N
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1325-1340,1A,1A,In nest,,2,Mom in direct sun -beak open as if panting - can't see wings - watchful - looking around
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1347,1A,1A,In nest,,2,Stood up - turned N - head down - scooting around - turned to W - head down in nest - sat back up
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1351-1355,1A,1A,In nest,,2,Facing W
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1357,1A,1A,In nest,,2,Stood up turned S - head in nest several times - scooted around then turned W - head in nest several times - carefully sat back down
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1403,1A,1A,In nest,,2,On nest - wings slightly open - head bobbing some in nest
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1406,1A,1A,In nest,,2,Sitting quietly on nest facing W
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1407,1A,1A,In nest,,2,Moving up & down in nest - wings slightly open
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1410,1A,1A,In nest,,2,Stood up - head in nest - bobbing up & down - facing W
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1420-1430,1A,1A,In nest,,2,Finally sitting quietly facing W and looking E
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1432,1A,1A,In nest,,2,Stood up turned to E - very careful sitting back down - head in nest a couple of times
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1444,2A,1A,In nest,,2,1A flew by towards W - no call by Mom - stood up - turned S - head in nest - very careful sitting back down - flexed wings while up
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1450-1455,1A,1A,In nest,,2,Sitting quietly facing W then looking around & shifting back and forth on nest
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1508,1A,1A,In nest,,2,Facing E - very watchful
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1518,2A,0,,,2,Dad showed up - Mom immediately flew off - Dad stood on edge of nest for a minute or so then flew off - Mom immediately returned and sat on nest facing E
+4/15/2017,West Nest 2,NE,H,Good,Steve Hill,80,20-Oct,SW,0,10,Binoc's/Scope,1325,1540,1522-1540,1A,1A,In nest,,2,Mom quietly on nest facing E - wings maybe open some -often looking N
 4/17/2017,West Nest 2,NE,H,Good,Steve Hill,59,6,NE,0,0,Binoc's/Scope,1410,1610,1410,2A,1A,In nest,,2,Both birds present - Dad had evidently brought lunch - eating
 4/17/2017,West Nest 2,NE,H,Good,Steve Hill,59,6,NE,0,0,Binoc's/Scope,1410,1610,1412,2A,0,,,2,Mom got off nest - Dad ripping food & poking head into nest
 4/17/2017,West Nest 2,NE,H,Good,Steve Hill,59,6,NE,0,0,Binoc's/Scope,1410,1610,1415,2A,1A,In nest,,2,Mom flew away - Dad's head in nest
@@ -1371,309 +1371,309 @@ Date,Nest Location,Observer's location to nest,Nest Status,Nest Condition,Observ
 7/8/2017,West Nest 2,NNE,BR,Good,Steve Hill,72,,,0,60,Binoc's/Scope,1000,1130,1130,1A,0,,,1,Jr down in nest - pushed Mom off onto branch & she flew away - Jr eating on E end of nest
 7/10/2017,West Nest 2,NNE,F,Good,Steve Hill,67,10,SSW,100,100,Binoc's/Scope,1100,1145,1100-1145,0A,0,,,0,No birds in or near nest - went to base of tree and still so nothing
 1/28/2018,West,NNE,,Good,Steve Hill,45,0,0,0,0,Binoc's/Scope,1200,1300,1200,0,0,,,,No eagles @ nest site/no activity observed
-1/28/2018,West,NNE,,Good,Steve Hill,,,,,,,,,1300,0,0,,,,No eagles @ nest site
+1/28/2018,West,NNE,,Good,Steve Hill,45,,,,,,,,1300,0,0,,,,No eagles @ nest site
 1/31/2018,West,NNE,,Good,Steve Hill,42,20,SW,0,80,Binoc's/Scope,1530,1600,1530,0,0,,,,No eagles @ nest site
-1/31/2018,West,NNE,,Good,Steve Hill,,,,,,,,,1540,1A,0,,,,On branch above nest
-1/31/2018,West,NNE,,Good,Steve Hill,,,,,,,,,1549,1A,,,,,Flew away
+1/31/2018,West,NNE,,Good,Steve Hill,42,,,,,,,,1540,1A,0,,,,On branch above nest
+1/31/2018,West,NNE,,Good,Steve Hill,42,,,,,,,,1549,1A,,,,,Flew away
 1/31/2018,West,NNE,,Good,Steve Hill,42,20,SW,0,80,Binoc's/Scope,1530,1600,1600,0,0,,,,No eagles @ nest site
 2/3/2018,West,NNE,Building,Good,Steve Hill,31,10,SSW,0,100,Binoc's/Scope,1515,1545,1515,1J,0,,,,Flew away just as I arrived on site
-2/3/2018,West,NNE,,Good,Steve Hill,,,,,,,,,1545,0,0,,,,No birds present
+2/3/2018,West,NNE,,Good,Steve Hill,27,,,,,,,,1545,0,0,,,,No birds present
 2/12/2018,West,NNE,Building,Good,Steve Hill,25,10,NNW,0,0,Binoc's/Scope,1100,1200,1100,0,0,,,,
-2/12/2018,West,NNE,,Good,Steve Hill,,,,,,,,,1105,1A/2J,0,,,,1A landed in tree E of nest 2J flew from tree 300' W of nest
-2/12/2018,West,NNE,,Good,Steve Hill,,,,,,,,,1110,0,0,,,,1A flew away
+2/12/2018,West,NNE,,Good,Steve Hill,25,,,,,,,,1105,1A/2J,0,,,,1A landed in tree E of nest 2J flew from tree 300' W of nest
+2/12/2018,West,NNE,,Good,Steve Hill,25,,,,,,,,1110,0,0,,,,1A flew away
 2/12/2018,West,NNE,Building,Good,Steve Hill,25,10,NNW,0,0,Binoc's/Scope,1100,1200,1125,1A,0,,,,1A landed in same tree 50' E of nest then flew away
-2/12/2018,West,NNE,,Good,Steve Hill,,,,,,,,,1200,0,0,,,,
+2/12/2018,West,NNE,,Good,Steve Hill,35,,,,,,,,1200,0,0,,,,
 2/15/2018,West,NNE,Building/Guarding,Good,Em,55,13,SW,0,100,"Vortex Spotting Scope, Cannon Powershot full digital",1010,1112,1010,1A,1,"Standing/squatting in nest, preening, opening/closing beak",,,
-2/15/2018,West,NNE,,Good,Em,,,,,,,,,1020,2A,2,"Another A shows up with some brown mottling, begins shifting nest material",,,
-2/15/2018,West,NNE,,Good,Em,,,,,,,,,1023,2A,1,"First A flies inland, not far from spotting location, perches in tree",,,
+2/15/2018,West,NNE,,Good,Em,55,,,,,,,,1020,2A,2,"Another A shows up with some brown mottling, begins shifting nest material",,,
+2/15/2018,West,NNE,,Good,Em,55,,,,,,,,1023,2A,1,"First A flies inland, not far from spotting location, perches in tree",,,
 2/15/2018,West,NNE,Building/Guarding,Good,Em,55,13,SW,0,100,"Vortex Spotting Scope, Cannon Powershot full digital",1010,1112,1025,1A,0,Mottled A flies off northward,,,
-2/15/2018,West,NNE,,Good,Em,,,,,,,,,1026,0,0,"First A flies S of RR tracks, toward estuary",,,
-2/15/2018,West,NNE,,Good,Em,,,,,,,,,1040,1JP,1JP,1JP (completely brown) shows up W of nest and messes with nest material,,,
+2/15/2018,West,NNE,,Good,Em,55,,,,,,,,1026,0,0,"First A flies S of RR tracks, toward estuary",,,
+2/15/2018,West,NNE,,Good,Em,55,,,,,,,,1040,1JP,1JP,1JP (completely brown) shows up W of nest and messes with nest material,,,
 2/15/2018,West,NNE,Building/Guarding,Good,Em,55,13,SW,0,100,"Vortex Spotting Scope, Cannon Powershot full digital",1010,1112,1042,"1A, 1JP",1JP,"First A comes back calling, lands SE of nest in tree near spotting scope",,,
-2/15/2018,West,NNE,,Good,Em,,,,,,,,,1045,"1A, 1JP",1JP ,JP hops to side of nest,,,
-2/15/2018,West,NNE,,Good,Em,,,,,,,,,1100,"1A, 1JP",1JP,First A flies to base of nest tree calling. JP does not react,,,
+2/15/2018,West,NNE,,Good,Em,55,,,,,,,,1045,"1A, 1JP",1JP ,JP hops to side of nest,,,
+2/15/2018,West,NNE,,Good,Em,55,,,,,,,,1100,"1A, 1JP",1JP,First A flies to base of nest tree calling. JP does not react,,,
 2/15/2018,West,NNE,Building/Guarding,Good,Em,55,13,SW,0,100,"Vortex Spotting Scope, Cannon Powershot full digital",1010,1112,1104,"1A, 2JP",1JP,"another JP shows up directly to east of nest, calling",,,
-2/15/2018,West,NNE,,Good,Em,,,,,,,,,1110,"3A, 2JP",1JP ,"lots of calling, A and JP flying near nest. JP remaining on nest. 2A land inland",,,
+2/15/2018,West,NNE,,Good,Em,44,,,,,,,,1110,"3A, 2JP",1JP ,"lots of calling, A and JP flying near nest. JP remaining on nest. 2A land inland",,,
 2/16/2018,West,NNE,Building,Good,Steve Hill,34,12,N,0,100,Binoc's/Scope,1430,1530,1430,1A,0,On side of nest,,,
-2/16/2018,West,NNE,,Good,Steve Hill,,,,,,,,,1435,2A,0,"On side of nest, on branch above nest",,,
-2/16/2018,West,NNE,,Good,Steve Hill,,,,,,,,,1450,1A,0,On side of nest,,,
+2/16/2018,West,NNE,,Good,Steve Hill,34,,,,,,,,1435,2A,0,"On side of nest, on branch above nest",,,
+2/16/2018,West,NNE,,Good,Steve Hill,34,,,,,,,,1450,1A,0,On side of nest,,,
 2/16/2018,West,NNE,Building,Good,Steve Hill,34,12,N,0,100,Binoc's/Scope,1430,1530,1453,2A,0,On side of nest,,,2nd A brought back stick for nest
-2/16/2018,West,NNE,,Good,Steve Hill,,,,,,,,,1510-1530,0,0,,,,Both flew North
+2/16/2018,West,NNE,,Good,Steve Hill,56,,,,,,,,1510-1530,0,0,,,,Both flew North
 2/20/2018,West,NNE,Protecting,Good,Mary Hill,68,10,SW,0,90,Binoc's/Scope,1040,1135,1040,2A,0,On branch above nest,,,
-2/20/2018,West,NNE,,Good,Mary Hill,,,,,,,,,1046,2A,1A,On edge of nest,,,"1A on branch, 1A on nest edge"
-2/20/2018,West,NNE,,Good,Mary Hill,,,,,,,,,1047,1A,1A,On edge of nest,,,1A flew off to East
+2/20/2018,West,NNE,,Good,Mary Hill,68,,,,,,,,1046,2A,1A,On edge of nest,,,"1A on branch, 1A on nest edge"
+2/20/2018,West,NNE,,Good,Mary Hill,68,,,,,,,,1047,1A,1A,On edge of nest,,,1A flew off to East
 2/20/2018,West,NNE,Protecting,Good,Mary Hill,68,10,SW,0,90,Binoc's/Scope,1040,1135,1103,1A,0,On branch above nest,,,
-2/20/2018,West,NNE,,Good,Mary Hill,,,,,,,,,1108,1A/1J,0,On branch,,,1J flew by nest West to East
-2/20/2018,West,NNE,,Good,Mary Hill,,,,,,,,,1111,2A/1J,0,On branch,,,"1J flew into cove, came back and tried to land on nest, 1A came back at same time and both A's chased 1J off"
+2/20/2018,West,NNE,,Good,Mary Hill,68,,,,,,,,1108,1A/1J,0,On branch,,,1J flew by nest West to East
+2/20/2018,West,NNE,,Good,Mary Hill,68,,,,,,,,1111,2A/1J,0,On branch,,,"1J flew into cove, came back and tried to land on nest, 1A came back at same time and both A's chased 1J off"
 2/20/2018,West,NNE,Protecting,Good,Mary Hill,68,10,SW,0,90,Binoc's/Scope,1040,1135,1113,2A,0,On branch,,,Both on branch above nest
-2/20/2018,West,NNE,,Good,Mary Hill,,,,,,,,,1117,1A,0,On branch,,,1A flew West
-2/20/2018,West,NNE,,Good,Mary Hill,,,,,,,,,1119,2A/1J,1A,On edge of nest,,,"1A came back w/something in talons and put in nest, other 1A flew West"
+2/20/2018,West,NNE,,Good,Mary Hill,68,,,,,,,,1117,1A,0,On branch,,,1A flew West
+2/20/2018,West,NNE,,Good,Mary Hill,68,,,,,,,,1119,2A/1J,1A,On edge of nest,,,"1A came back w/something in talons and put in nest, other 1A flew West"
 2/20/2018,West,NNE,Guarding,Good,Mary Hill,68,10,SW,0,90,Binoc's/Scope,1040,1135,1135,1A,1A,On branch,,,On branch above nest
 2/25/2018,West,NNE,Guarding,Good,Mary Hill,45,22,NNW,0,20,Binoc's/Scope,1309,1425,1309,2A,1A,On edge of nest,,,"1A on branch to East, 1A on edge of nest"
-2/25/2018,West,NNE,,Good,Mary Hill,,,,,,,,,1324,1A,1A,On edge of nest,,,1A flew North over estuary
-2/25/2018,West,NNE,,Good,Mary Hill,,,,,,,,,1325,2A,1A,On edge of nest,,,"1A came back brought food, both on edge of nest"
+2/25/2018,West,NNE,,Good,Mary Hill,45,,,,,,,,1324,1A,1A,On edge of nest,,,1A flew North over estuary
+2/25/2018,West,NNE,,Good,Mary Hill,45,,,,,,,,1325,2A,1A,On edge of nest,,,"1A came back brought food, both on edge of nest"
 2/25/2018,West,NNE,Guarding,Good,Mary Hill,45,22,NNW,0,20,Binoc's/Scope,1309,1425,1328,2A,1A,On edge of nest,,,"1A on branch above, 1A eating"
-2/25/2018,West,NNE,,Good,Mary Hill,,,,,,,,,1334,2A,1A,On edge of nest,,,"1A that was eating now on branch, other 1A eating"
-2/25/2018,West,NNE,,Good,Mary Hill,,,,,,,,,1343,1A,0,On branch,,,"1A flew West, other 1A on branch"
+2/25/2018,West,NNE,,Good,Mary Hill,45,,,,,,,,1334,2A,1A,On edge of nest,,,"1A that was eating now on branch, other 1A eating"
+2/25/2018,West,NNE,,Good,Mary Hill,45,,,,,,,,1343,1A,0,On branch,,,"1A flew West, other 1A on branch"
 2/25/2018,West,NNE,Guarding,Good,Mary Hill,45,22,NNW,0,20,Binoc's/Scope,1309,1425,1344,0,0,,,,"1A flew West, no birds at nest"
-2/25/2018,West,NNE,,Good,Mary Hill,,,,,,,,,1401-1425,0,0,,,,Still no birds at nest
+2/25/2018,West,NNE,,Good,Mary Hill,39,,,,,,,,1401-1425,0,0,,,,Still no birds at nest
 2/25/2018,West,NNE,Guarding ,Good,S. Hill,34,11,SSW,0,100,15-45x Scope,1410,1510,1410,1A,0,"Female on side of nest, ""housekeeping""",,,"No observation times given, just start and end time"
 2/27/2018,West,NNE,Incubating,Good,Mary Hill,56,17,SW,0,0,Binoc's/Scope,1354,1500,1354,1A,1A,In nest,1,,1A sitting in nest
-2/27/2018,West,NNE,,Good,,,,,,,,,,1407-1420,1A,1A,In nest,1,,"1A standing in nest looking West, nest in sun"
-2/27/2018,West,NNE,,Good,,,,,,,,,,1428,1A/1J,1A,In nest,1,,1J flew close to nest then off
+2/27/2018,West,NNE,,Good,,56,,,,,,,,1407-1420,1A,1A,In nest,1,,"1A standing in nest looking West, nest in sun"
+2/27/2018,West,NNE,,Good,,56,,,,,,,,1428,1A/1J,1A,In nest,1,,1J flew close to nest then off
 2/27/2018,West,NNE,Incubating,Good,Mary Hill,56,17,SW,0,0,Binoc's/Scope,1354,1500,1436,1A,1A,In nest,1,,1A still standing in nest looking around
-2/27/2018,West,NNE,,Good,,,,,,,,,,1451,2A,1A,On edge of nest,1,,"1A landed on nest edge, 1A in nest moved to branch then flew"
-2/27/2018,West,NNE,,Good,,,,,,,,,,1452,1A,1A,In nest,1,,1A moving something around in nest
+2/27/2018,West,NNE,,Good,,56,,,,,,,,1451,2A,1A,On edge of nest,1,,"1A landed on nest edge, 1A in nest moved to branch then flew"
+2/27/2018,West,NNE,,Good,,56,,,,,,,,1452,1A,1A,In nest,1,,1A moving something around in nest
 2/27/2018,West,NNE,Incubating,Good,Mary Hill,56,17,SW,0,0,Binoc's/Scope,1354,1500,1456,1A,1A,In nest,1,,1A moving sticks around
-2/27/2018,West,NNE,,Good,,,,,,,,,,1459,1A,1A,In nest,1,,1A sitting in nest
+2/27/2018,West,NNE,,Good,,46,,,,,,,,1459,1A,1A,In nest,1,,1A sitting in nest
 3/4/2018,West,NNE,Incubating,Good,Mary Hill,36,12,NNE,0,0,Binoc's/Scope,1252,1400,1252,1A,1A,In nest,1,,"1A sitting in nest facing SE, behind branch only head visible, no other eagles in sight"
-3/4/2018,West,NNE,,Good,,,,,,,,,,1332,1A,1A,In nest,1,,"Now in shadow of branch, really hard to see, still no other"
-3/4/2018,West,NNE,,Good,,,,,,,,,,1341,1A,1A,In nest,1,,Spotted 3A in trees in Eagle cove
+3/4/2018,West,NNE,,Good,,36,,,,,,,,1332,1A,1A,In nest,1,,"Now in shadow of branch, really hard to see, still no other"
+3/4/2018,West,NNE,,Good,,36,,,,,,,,1341,1A,1A,In nest,1,,Spotted 3A in trees in Eagle cove
 3/4/2018,West,NNE,Incubating,Good,Mary Hill,36,12,NNE,0,0,Binoc's/Scope,1252,1400,1352,1A,1A,In nest,1,,1A from cove flew by nest towards West
 3/7/2018,West,NNE,Incubating,Good,Mary Hill,35,15,WSW,0,100,Binoc's/Scope,1247,1330,1247,1A,1A,In nest,1,,"1A facing SE, 1A in tree in Eagle cove, 4? Flying over cove"
-3/7/2018,West,NNE,,Good,,,,,,,,,,1301,2A,1A,In nest,1,,"2nd A landed on branch above nest, came from direction of cove"
-3/7/2018,West,NNE,,Good,,,,,,,,,,1306,3A,1A,In nest,1,,"3rd A flew close to nest, 1A in nest vocalizing"
+3/7/2018,West,NNE,,Good,,35,,,,,,,,1301,2A,1A,In nest,1,,"2nd A landed on branch above nest, came from direction of cove"
+3/7/2018,West,NNE,,Good,,35,,,,,,,,1306,3A,1A,In nest,1,,"3rd A flew close to nest, 1A in nest vocalizing"
 3/7/2018,West,NNE,Incubating,Good,Mary Hill,35,15,WSW,0,100,Binoc's/Scope,1247,1330,1320,0,0,,1,,Both A's left nest
-3/7/2018,West,NNE,,Good,,,,,,,,,,1321,1A,0,,1,,1A back on branch to East
-3/7/2018,West,NNE,,Good,,,,,,,,,,1322,1A,1A,In nest,1,,1A back in nest
+3/7/2018,West,NNE,,Good,,34,,,,,,,,1321,1A,0,,1,,1A back on branch to East
+3/7/2018,West,NNE,,Good,,34,,,,,,,,1322,1A,1A,In nest,1,,1A back in nest
 3/11/2018,West,NNE,Incubating,Good,Mary Hill,33,10,NNE,0,80,Binoc's/Scope,1307,1415,1307,1A,1A,In nest,1,,"1A sitting in nest, 2J flying avove nest"
-3/11/2018,West,NNE,,Good,,,,,,,,,,1308,2A,1A,In nest,1,,2nd 1A (Mom) landed on branch West of nest
-3/11/2018,West,NNE,,Good,,,,,,,,,,1309,2A,1A,In nest,1,,"Eagles changed places, 1A flew off, one in nest facing S"
+3/11/2018,West,NNE,,Good,,33,,,,,,,,1308,2A,1A,In nest,1,,2nd 1A (Mom) landed on branch West of nest
+3/11/2018,West,NNE,,Good,,33,,,,,,,,1309,2A,1A,In nest,1,,"Eagles changed places, 1A flew off, one in nest facing S"
 3/11/2018,West,NNE,Incubating,Good,Mary Hill,33,10,NNE,0,80,Binoc's/Scope,1307,1415,1326,1A,1A,In nest,1,,1A rearranging sticks in nest
-3/11/2018,West,NNE,,Good,,,,,,,,,,1338,1A,1A,In nest,1,,1A turned 180 degrees in nest now facing N
-3/11/2018,West,NNE,,Good,,,,,,,,,,1342,1A,1A,In nest,1,,"Standing up w/head in nest (rolling egg?), sitting back down facing SW"
+3/11/2018,West,NNE,,Good,,33,,,,,,,,1338,1A,1A,In nest,1,,1A turned 180 degrees in nest now facing N
+3/11/2018,West,NNE,,Good,,33,,,,,,,,1342,1A,1A,In nest,1,,"Standing up w/head in nest (rolling egg?), sitting back down facing SW"
 3/11/2018,West,NNE,Incubating,Good,Mary Hill,33,10,NNE,0,80,Binoc's/Scope,1307,1415,1350,a,1A,In nest,1,,Can't see head may be sleeping
-3/11/2018,West,NNE,,Good,,,,,,,,,,1402,1A,1A,In nest,1,,"Standing up again, changed direction now facing S, 1A called and flew over, Mom replied, moving sticks again"
-3/11/2018,West,NNE,,Good,,,,,,,,,,1405,1A,1A,In nest,1,,Sitting down again
+3/11/2018,West,NNE,,Good,,33,,,,,,,,1402,1A,1A,In nest,1,,"Standing up again, changed direction now facing S, 1A called and flew over, Mom replied, moving sticks again"
+3/11/2018,West,NNE,,Good,,33,,,,,,,,1405,1A,1A,In nest,1,,Sitting down again
 3/11/2018,West,NNE,Incubating,Good,Mary Hill,33,10,NNE,0,80,Binoc's/Scope,1307,1415,1408,1A,1A,In nest,1,,Stood up and flew off
-3/11/2018,West,NNE,,Good,,,,,,,,,,1409,1A,1A,In nest,1,,1A back and sitting in nest again
-3/11/2018,West,NNE,,Good,,,,,,,,,,1415,1A,1A,In nest,1,,No change
+3/11/2018,West,NNE,,Good,,31,,,,,,,,1409,1A,1A,In nest,1,,1A back and sitting in nest again
+3/11/2018,West,NNE,,Good,,31,,,,,,,,1415,1A,1A,In nest,1,,No change
 3/16/2018,West,NNE,Incubating,Good,Steve Hill,29,10,NNW,0,50,Binoc's/Scope,1115,1240,1115,0,0,,1,,There was a bird on nest but couldn't see it at first
-3/16/2018,West,NNE,,Good,,,,,,,,,,1130,1A,1A,In nest,1,,Moved for a better view
-3/16/2018,West,NNE,,Good,,,,,,,,,,1215,2A,1A,In nest,1,,Male arrived and promptly left
+3/16/2018,West,NNE,,Good,,29,,,,,,,,1130,1A,1A,In nest,1,,Moved for a better view
+3/16/2018,West,NNE,,Good,,29,,,,,,,,1215,2A,1A,In nest,1,,Male arrived and promptly left
 3/16/2018,West,NNE,Incubating,Good,Steve Hill,29,10,NNW,0,50,Binoc's/Scope,1115,1240,1220,2A,1A,In nest,1,,Swtched in nest
-3/16/2018,West,NNE,,Good,,,,,,,,,,1225,1A,1A,In nest,1,,"Male in nest, Mom flew off"
-3/16/2018,West,NNE,,Good,,,,,,,,,,1240,1A,1A,In nest,1,,Male in nest
+3/16/2018,West,NNE,,Good,,32,,,,,,,,1225,1A,1A,In nest,1,,"Male in nest, Mom flew off"
+3/16/2018,West,NNE,,Good,,32,,,,,,,,1240,1A,1A,In nest,1,,Male in nest
 3/18/2018,West,NNE,Incubating,Good,Mary Hill,35,9,WSW,0,0,Binoc's/Scope,1034,1148,1034,1A,1A,In nest,1,,"Mom in nest, nest in sun, moving sticks, facing SE"
-3/18/2018,West,NNE,,Good,,,,,,,,,,1051,1A,1A,In nest,1,,"Mom stood up turned 180 deg sat back down, facing NW"
-3/18/2018,West,NNE,,Good,,,,,,,,,,1102,"1A,2J",1A,In nest,1,,"2J flying overhead, Mom not concerned"
+3/18/2018,West,NNE,,Good,,35,,,,,,,,1051,1A,1A,In nest,1,,"Mom stood up turned 180 deg sat back down, facing NW"
+3/18/2018,West,NNE,,Good,,35,,,,,,,,1102,"1A,2J",1A,In nest,1,,"2J flying overhead, Mom not concerned"
 3/18/2018,West,NNE,Incubating,Good,Mary Hill,35,9,WSW,0,0,Binoc's/Scope,1034,1148,1116,1A,1A,In nest,1,,"No change in nest, quiet"
-3/18/2018,West,NNE,,Good,,,,,,,,,,1121,1A,1A,In nest,1,,"Mom stood up moved again, can't see her now, I moved to ridge"
-3/18/2018,West,NNE,,Good,,,,,,,,,,1128,3A,1A,In nest,1,,"Mom sounding alarm, 2A's flying to nest, 1A Dad chased intruder off to W, landed on edge of nest"
+3/18/2018,West,NNE,,Good,,35,,,,,,,,1121,1A,1A,In nest,1,,"Mom stood up moved again, can't see her now, I moved to ridge"
+3/18/2018,West,NNE,,Good,,35,,,,,,,,1128,3A,1A,In nest,1,,"Mom sounding alarm, 2A's flying to nest, 1A Dad chased intruder off to W, landed on edge of nest"
 3/18/2018,West,NNE,Incubating,Good,Mary Hill,35,9,WSW,0,0,Binoc's/Scope,1034,1148,1148,2A,1A,In nest,1,,"Mom in nest, Dad on edge, each looking different directions"
 3/24/2018,West,NNE,Incubating,Good,Mary Hill,39,16,NE,0,0,Binoc's/Scope,1117,1215,1117,1A,1A,In nest,1,,Mom in nest
-3/24/2018,West,NNE,,Good,,,,,,,,,,1124,1A,1A,In nest,1,,"Stood up, rolled egg, sat back down hard to see"
-3/24/2018,West,NNE,,Good,,,,,,,,,,1134,1A,1A,In nest,1,,"Turned 180, better view now"
+3/24/2018,West,NNE,,Good,,39,,,,,,,,1124,1A,1A,In nest,1,,"Stood up, rolled egg, sat back down hard to see"
+3/24/2018,West,NNE,,Good,,39,,,,,,,,1134,1A,1A,In nest,1,,"Turned 180, better view now"
 3/24/2018,West,NNE,Incubating,Good,Mary Hill,39,16,NE,0,0,Binoc's/Scope,1117,1215,1147,1A,1A,In nest,1,,Turned 180 again
-3/24/2018,West,NNE,,Good,,,,,,,,,,1205,1A,1A,In nest,1,,Turned 180 again
-3/24/2018,West,NNE,,Good,,,,,,,,,,1215,1A,1A,In nest,1,,"No change, saw no other Eagles"
+3/24/2018,West,NNE,,Good,,41,,,,,,,,1205,1A,1A,In nest,1,,Turned 180 again
+3/24/2018,West,NNE,,Good,,41,,,,,,,,1215,1A,1A,In nest,1,,"No change, saw no other Eagles"
 3/28/2018,West,NNE,Incubating,Good,Steve Hill,43,15,NE,,100,Binoc's,1330,1440,1330,1A,1A,In nest,1,,Mom in nest
-3/28/2018,West,NNE,,Good,,,,,,,,,,1430,2A,1A,In nest/on nest,1,,1A arrived and flew away
-3/28/2018,West,NNE,,Good,,,,,,,,,,1440,1A,1A,In nest,1,,Mom in nest
+3/28/2018,West,NNE,,Good,,48,,,,,,,,1430,2A,1A,In nest/on nest,1,,1A arrived and flew away
+3/28/2018,West,NNE,,Good,,48,,,,,,,,1440,1A,1A,In nest,1,,Mom in nest
 3/31/2018,West,NNE,Incubating,Good,Steve Hill,53,30,SSW,0,100,Scope,1115,1315,1115,1A,1A,In nest,1,,Facing East
-3/31/2018,West,NNE,,Good,,,,,,,,,,1125,1A,1A,In nest,1,,May have done egg roll
-3/31/2018,West,NNE,,Good,,,,,,,,,,1215,1A/1J,1A,In nest,1,,"1J landed in tree below nest, Mom sounded alarm"
+3/31/2018,West,NNE,,Good,,53,,,,,,,,1125,1A,1A,In nest,1,,May have done egg roll
+3/31/2018,West,NNE,,Good,,53,,,,,,,,1215,1A/1J,1A,In nest,1,,"1J landed in tree below nest, Mom sounded alarm"
 3/31/2018,West,NNE,Incubating,Good,Steve Hill,53,30,SSW,0,100,Scope,1115,1315,1220,2A,1A,In nest,1,,"Dad arrived & chased 1J off, Dad then flew off"
-3/31/2018,West,NNE,,Good,,,,,,,,,,1225-1315,1A,1A,In nest,1,,Mom facing West
+3/31/2018,West,NNE,,Good,,43,,,,,,,,1225-1315,1A,1A,In nest,1,,Mom facing West
 4/2/2018,West,NNE,Incubating,Good,Steve Hill,36,10,NNE,0,10,Scope,1340,1510,1340,1A,1A,In nest,1,,Mom in nest facing East
-4/2/2018,West,NNE,,Good,,,,,,,,,,1450-1500,2A,1A,In nest,1,,"1A did 2 fly bys maybe verifying no J's incroaching, Mom showed no concern, 1A landed in tree near me, moved W then flew off"
-4/2/2018,West,NNE,,Good,,,,,,,,,,1510,1A,1A,In nest,1,,Mom in nest facing East
+4/2/2018,West,NNE,,Good,,35,,,,,,,,1450-1500,2A,1A,In nest,1,,"1A did 2 fly bys maybe verifying no J's incroaching, Mom showed no concern, 1A landed in tree near me, moved W then flew off"
+4/2/2018,West,NNE,,Good,,35,,,,,,,,1510,1A,1A,In nest,1,,Mom in nest facing East
 4/5/2018,West,NNE,Incubating/Hatched,Good,Steve Hill,34,10,N,0,50,Scope,1415,1615,1415,1A,1A,In nest,1,1,Sitting quietly on nest
-4/5/2018,West,NNE,,Good,,,,,,,,,,1520,2A,1A,In nest/On nest,1,1,"Dad arrived w/food, landed on E side of nest and was eating"
-4/5/2018,West,NNE,,Good,,,,,,,,,,1530,2A,1A,In nest/On nest,1,1,Dad moved to W end of nest
+4/5/2018,West,NNE,,Good,,34,,,,,,,,1520,2A,1A,In nest/On nest,1,1,"Dad arrived w/food, landed on E side of nest and was eating"
+4/5/2018,West,NNE,,Good,,34,,,,,,,,1530,2A,1A,In nest/On nest,1,1,Dad moved to W end of nest
 4/5/2018,West,NNE,Incubating/Hatched,Good,Steve Hill,34,10,N,0,50,Scope,1415,1615,1535,1A,1A,On nest,1,1,Mom flew away
-4/5/2018,West,NNE,,Good,,,,,,,,,,1540,1A,1A,In nest,1,1,"Dad stood in nest pulling apart food and then putting his head down into the nest, he repeated this several minutes, he also appeared to do an egg roll"
-4/5/2018,West,NNE,,Good,,,,,,,,,,1555,1A,1A,In nest,1,1,Dad then very carefully and with great difficulty sat on the nest
+4/5/2018,West,NNE,,Good,,39,,,,,,,,1540,1A,1A,In nest,1,1,"Dad stood in nest pulling apart food and then putting his head down into the nest, he repeated this several minutes, he also appeared to do an egg roll"
+4/5/2018,West,NNE,,Good,,39,,,,,,,,1555,1A,1A,In nest,1,1,Dad then very carefully and with great difficulty sat on the nest
 4/6/2018,West,NNE,Incubating/Hatched,Good,Steve Hill,44,22-30,WSW,0,100,Scope,1410,1520,1410,1A,1A,In nest,1,1,Facing North
-4/6/2018,West,NNE,,Good,,,,,,,,,,1450,1A,1A,In nest,1,1,"Stood up in nest w/back towards me, may have been feeding eaglet, seemed to be pulling on food then putting it into the nest"
-4/6/2018,West,NNE,,Good,,,,,,,,,,1457,1A,1A,In nest,1,1,"When sitting down on nest it moved around a lot, it continued to move around trying to get comfortable, called out several times but no response"
+4/6/2018,West,NNE,,Good,,44,,,,,,,,1450,1A,1A,In nest,1,1,"Stood up in nest w/back towards me, may have been feeding eaglet, seemed to be pulling on food then putting it into the nest"
+4/6/2018,West,NNE,,Good,,44,,,,,,,,1457,1A,1A,In nest,1,1,"When sitting down on nest it moved around a lot, it continued to move around trying to get comfortable, called out several times but no response"
 4/6/2018,West,NNE,Incubating/Hatched,Good,Steve Hill,44,22-30,WSW,0,100,Scope,1410,1520,1520,1A,1A,In nest,1,1,Mom very alert and fidgeting on the nest
 4/8/2018,West,NNE,Incubating/Hatched,Good,Steve Hill,36,10,NNE,0,50,Scope,1520,1650,1520,1A,1A,In nest,1,1,Mom moving around on nest as if trying to get comfortable
-4/8/2018,West,NNE,,Good,,,,,,,,,,1545,2A,,On nest,1,1,Mom flew away
-4/8/2018,West,NNE,,Good,,,,,,,,,,1547,1A,1A,On nest,1,1,Looks like Dad was feeding an eaglet in the W side of nest
+4/8/2018,West,NNE,,Good,,36,,,,,,,,1545,2A,,On nest,1,1,Mom flew away
+4/8/2018,West,NNE,,Good,,36,,,,,,,,1547,1A,1A,On nest,1,1,Looks like Dad was feeding an eaglet in the W side of nest
 4/8/2018,West,NNE,Incubating/Hatched,Good,Steve Hill,36,10,NNE,0,50,Scope,1520,1650,1555,1A,1A,In nest,1,1,"Dad sat on the nest, he moved around a lot trying to get comfortable"
-4/8/2018,West,NNE,,Good,,,,,,,,,,1620,1A,1A,In nest,1,1,Dad sounded the alarm and I saw a Jv fly out of the trees but did not see an adult chasing it
-4/8/2018,West,NNE,,Good,,,,,,,,,,1650,1A,1A,In nest,1,1,"Dad still on nest, occasionaly moving around some"
+4/8/2018,West,NNE,,Good,,40,,,,,,,,1620,1A,1A,In nest,1,1,Dad sounded the alarm and I saw a Jv fly out of the trees but did not see an adult chasing it
+4/8/2018,West,NNE,,Good,,40,,,,,,,,1650,1A,1A,In nest,1,1,"Dad still on nest, occasionaly moving around some"
 4/10/2018,West,NNE,Incubating/Hatched,Good,Steve Hill,45,15,NE,0,90,Binoc's/Scope,1000,1200,1000-1200,1A,1A,In nest,,2,"Mom very active on nest, very focussed & attentive to contents of nest"
 4/13/2018,West,NNE,Incubating/Hatched,Good,Steve Hill,80,20,SSE,0,5,Scope,1205,1340,1205,1A,1A,On nest,,2,On side of nest feeding chicks
-4/13/2018,West,NNE,,Good,,,,,,,,,,1211,1A,1A,In nest,,2,"Mom back in nest working very hard at getting comforable, head poking down into nest moving sticks or pushing under her body"
-4/13/2018,West,NNE,,Good,,,,,,,,,,1223,2A,1A,In nest/on nest,,2,"Mom in nest, Dad brought food and flew away.  Bill reported Dad was roosting in a tree NE of nest"
+4/13/2018,West,NNE,,Good,,80,,,,,,,,1211,1A,1A,In nest,,2,"Mom back in nest working very hard at getting comforable, head poking down into nest moving sticks or pushing under her body"
+4/13/2018,West,NNE,,Good,,80,,,,,,,,1223,2A,1A,In nest/on nest,,2,"Mom in nest, Dad brought food and flew away.  Bill reported Dad was roosting in a tree NE of nest"
 4/13/2018,West,NNE,Incubating/Hatched,Good,Steve Hill,80,20,SSE,0,5,Scope,1205,1340,1227-1340,1A,1A,In nest,,2,"The nest was in direct sunlight, Mom at times stood up, very active , moving around a lot, there may be 2 very active eaglets, she was very attentive to what is in the nest"
 4/16/2018,West,NNE,Incubating/Hatched,Good,Mary Hill,34,23,W,0,100,Binoc's/Scope,1340,1440,1340,1A,1A,In nest,,2,"Dad in nest, sitting really low, can only see a few back feathers & sometimes his head"
-4/16/2018,West,NNE,,Good,,,,,,,,,,1354,2A/1J,1A,In nest,,2,"1J landed in tree East of nest, Dad sounded alarm, Mom flew to NE side of nest"
-4/16/2018,West,NNE,,Good,,,,,,,,,,1355,2A,1A,In nest,,2,1J flew off
+4/16/2018,West,NNE,,Good,,34,,,,,,,,1354,2A/1J,1A,In nest,,2,"1J landed in tree East of nest, Dad sounded alarm, Mom flew to NE side of nest"
+4/16/2018,West,NNE,,Good,,34,,,,,,,,1355,2A,1A,In nest,,2,1J flew off
 4/16/2018,West,NNE,Incubating/Hatched,Good,Mary Hill,34,23,W,0,100,Binoc's/Scope,1340,1440,1424,2A,1A,In nest/on branch,,2,Mom flew down to water after something
-4/16/2018,West,NNE,,Good,,,,,,,,,,1426,2A,2A,On nest,,2,"Mom back w/something, Dad got up on side of nest, eating, Mom feeding & eating what is left in her beak"
-4/16/2018,West,NNE,,Good,,,,,,,,,,1433,2A,2A,In nest/on nest,,2,"Dad sat back down in nest, Mom finished eating"
+4/16/2018,West,NNE,,Good,,34,,,,,,,,1426,2A,2A,On nest,,2,"Mom back w/something, Dad got up on side of nest, eating, Mom feeding & eating what is left in her beak"
+4/16/2018,West,NNE,,Good,,34,,,,,,,,1433,2A,2A,In nest/on nest,,2,"Dad sat back down in nest, Mom finished eating"
 4/16/2018,West,NNE,Incubating/Hatched,Good,Mary Hill,34,23,W,0,100,Binoc's/Scope,1340,1440,1435,1A,1A,In nest,,2,Mom flew off
 4/18/2018,West,NNE,Hatched,Good,Mary Hill,40,6,NNW,0,0,Binoc's/Scope,1330,1500,1330,1A,1A,In nest,,2,Mom in nest
-4/18/2018,West,NNE,Hatched,Good,,,,,,,,,,1336,1A/1J,1A,In nest,,2,"1J circling around nest, Mom sounded alarm, 1J flew off"
-4/18/2018,West,NNE,Hatched,Good,,,,,,,,,,1351,1A,1A,In nest,,2,"Very watchful, scanning estuary"
+4/18/2018,West,NNE,Hatched,Good,,40,,,,,,,,1336,1A/1J,1A,In nest,,2,"1J circling around nest, Mom sounded alarm, 1J flew off"
+4/18/2018,West,NNE,Hatched,Good,,40,,,,,,,,1351,1A,1A,In nest,,2,"Very watchful, scanning estuary"
 4/18/2018,West,NNE,Hatched,Good,Mary Hill,40,6,NNW,0,0,Binoc's/Scope,1330,1500,1356,2A,1A,In nest,,2,Dad flew by &over to Eagle cove then towards lake
-4/18/2018,West,NNE,Hatched,Good,,,,,,,,,,1357,1A,1A,In nest,,2,Mom called out 
-4/18/2018,West,NNE,Hatched,Good,,,,,,,,,,1410,1A,1A,In nest,,2,"Stoodup on E side of nest eating, then feeding, saw 1 Eaglet head, Mom moved to W side of nest still feeding, sat back in nest"
+4/18/2018,West,NNE,Hatched,Good,,40,,,,,,,,1357,1A,1A,In nest,,2,Mom called out 
+4/18/2018,West,NNE,Hatched,Good,,40,,,,,,,,1410,1A,1A,In nest,,2,"Stoodup on E side of nest eating, then feeding, saw 1 Eaglet head, Mom moved to W side of nest still feeding, sat back in nest"
 4/18/2018,West,NNE,Hatched,Good,Mary Hill,40,6,NNW,0,0,Binoc's/Scope,1330,1500,1449,1A,1A,In nest,,2,"Mom stood up, moved some sticks around sat back down"
-4/18/2018,West,NNE,Hatched,Good,,,,,,,,,,1451,2A,1A,In nest,,2,"1A flew by into cove W of nest, saw it flying towards nest as I was walking back"
+4/18/2018,West,NNE,Hatched,Good,,41,,,,,,,,1451,2A,1A,In nest,,2,"1A flew by into cove W of nest, saw it flying towards nest as I was walking back"
 4/21/2018,West,NNE,Hatched,Good,Mary Hill,41,9,NE,0,90,Binoc's/Scope,1100,1200,1102,2A,1A,In nest/on branch,,2,"Mom in nest, Dad on branch W of nest, saw 6 J's in west cove while walking back to nest"
-4/21/2018,West,NNE,Hatched,Good,,,,,,,,,,1115,2A/3J,1A,In nest,,2,Dad flew chasing 3 J's flying around nest
-4/21/2018,West,NNE,Hatched,Good,,,,,,,,,,1116,2A,1A,In nest/on branch,,2,Dad back sitting on branch above and W of nest
+4/21/2018,West,NNE,Hatched,Good,,41,,,,,,,,1115,2A/3J,1A,In nest,,2,Dad flew chasing 3 J's flying around nest
+4/21/2018,West,NNE,Hatched,Good,,41,,,,,,,,1116,2A,1A,In nest/on branch,,2,Dad back sitting on branch above and W of nest
 4/21/2018,West,NNE,Hatched,Good,Mary Hill,41,9,NE,0,90,Binoc's/Scope,1100,1200,1119,2A/2J,1A,In nest/on branch,,2,"2J flew by, Dad vocalized but stayed on branch"
-4/21/2018,West,NNE,,Good,,,,,,,,,,1134,2A,1A,On side of nest/on branch,,2,"Mom  stood up on E side of nest, saw one eaglet heat"
-4/21/2018,West,NNE,,Good,,,,,,,,,,1136,2A,1A,On nest/on branch,,2,"Mom moved to W side of nest, she ate some then started feeding, can't see how many"
+4/21/2018,West,NNE,,Good,,41,,,,,,,,1134,2A,1A,On side of nest/on branch,,2,"Mom  stood up on E side of nest, saw one eaglet heat"
+4/21/2018,West,NNE,,Good,,41,,,,,,,,1136,2A,1A,On nest/on branch,,2,"Mom moved to W side of nest, she ate some then started feeding, can't see how many"
 4/21/2018,West,NNE,Hatched,Good,Mary Hill,41,9,NE,0,90,Binoc's/Scope,1100,1200,1147,2A,1A,On nest/on branch,,2,Mom finished feeding
-4/21/2018,West,NNE,Hatched,Good,,,,,,,,,,1149,2A,1A,On nest/on branch,,2,"Mom moved back to E side of nest, then stood in nest moving sticks, then sat back down"
-4/21/2018,West,NNE,Hatched,Good,,,,,,,,,,1154,1A,1A,In nest,,2,"Dad flew off, no J's in sight"
+4/21/2018,West,NNE,Hatched,Good,,41,,,,,,,,1149,2A,1A,On nest/on branch,,2,"Mom moved back to E side of nest, then stood in nest moving sticks, then sat back down"
+4/21/2018,West,NNE,Hatched,Good,,41,,,,,,,,1154,1A,1A,In nest,,2,"Dad flew off, no J's in sight"
 4/21/2018,West,NNE,Hatched,Good,Mary Hill,41,9,NE,0,90,Binoc's/Scope,1100,1200,1200,1A,1A,In nest,,2,Mom still sitting in nest
 4/27/2018,West,NNE,Hatched,Good,Mary Hill,64,10,N,0,0,Binoc's/Scope,1209,1309,1209,2A,1A,On side/on branch,,1,"Mom on side of nest, Dad on branch in front"
-4/27/2018,West,NNE,Hatched,Good,,,,,,,,,,1211,2A,1A,On side/on branch,,1,"Saw eaglet on W side of nest, is really big"
-4/27/2018,West,NNE,Hatched,Good,,,,,,,,,,1219,2A,1A,On side/on branch,,1,"Eaglet walking around in W end of nest, stretching wings"
+4/27/2018,West,NNE,Hatched,Good,,64,,,,,,,,1211,2A,1A,On side/on branch,,1,"Saw eaglet on W side of nest, is really big"
+4/27/2018,West,NNE,Hatched,Good,,64,,,,,,,,1219,2A,1A,On side/on branch,,1,"Eaglet walking around in W end of nest, stretching wings"
 4/27/2018,West,NNE,Hatched,Good,Mary Hill,64,10,N,0,0,Binoc's/Scope,1209,1309,1221,2A,1A,On side/on branch,,1,Eaglet eating on its own
-4/27/2018,West,NNE,Hatched,Good,,,,,,,,,,1223,1A,1A,On side,,1,Dad flew off
-4/27/2018,West,NNE,Hatched,Good,,,,,,,,,,1228,1A,1A,On side,,1,"Eaglet walking around in nest, don't see another one, looks like there is only one"
+4/27/2018,West,NNE,Hatched,Good,,64,,,,,,,,1223,1A,1A,On side,,1,Dad flew off
+4/27/2018,West,NNE,Hatched,Good,,64,,,,,,,,1228,1A,1A,On side,,1,"Eaglet walking around in nest, don't see another one, looks like there is only one"
 4/27/2018,West,NNE,Hatched,Good,Mary Hill,64,10,N,0,0,Binoc's/Scope,1209,1309,1238,1A,1A,In nest,,1,"Mom sitting in nest, eaglet beside her"
-4/27/2018,West,NNE,Hatched,Good,,,,,,,,,,1249,1A,1A,In nest,,1,Mom standing in W end of nest eating
-4/27/2018,West,NNE,Hatched,Good,,,,,,,,,,1304,1A,1A,On side,,1,"Mom standing on side of nest, eaglet moving around in nest"
+4/27/2018,West,NNE,Hatched,Good,,67,,,,,,,,1249,1A,1A,In nest,,1,Mom standing in W end of nest eating
+4/27/2018,West,NNE,Hatched,Good,,67,,,,,,,,1304,1A,1A,On side,,1,"Mom standing on side of nest, eaglet moving around in nest"
 5/5/2018,West,NNE,Hatched,Good,Mary Hill,70,10,S,0,0,Binoc's/Scope,1257,1358,1257,1A,1A,On nest,,1,"Mom on side of nest, Eaglet in West side of nest in shade, hard to see"
-5/5/2018,West,NNE,Hatched,Good,,,,,,,,,,1310,2A,1A,"On nest, On Branch",,1,Dad landed on branch in front of nest
-5/5/2018,West,NNE,Hatched,Good,,,,,,,,,,1312,1A,1A,On Branch,,1,Mom flew off 
+5/5/2018,West,NNE,Hatched,Good,,70,,,,,,,,1310,2A,1A,"On nest, On Branch",,1,Dad landed on branch in front of nest
+5/5/2018,West,NNE,Hatched,Good,,70,,,,,,,,1312,1A,1A,On Branch,,1,Mom flew off 
 5/5/2018,West,NNE,Hatched,Good,Mary Hill,70,10,S,0,0,Binoc's/Scope,1257,1358,1315,1A,1A,In nest,,1,Dad moved into nest facing west
-5/5/2018,West,NNE,Hatched,Good,,,,,,,,,,1338,1A,1A,In nest,,1,"Eaglet is not very active today, must be nap time"
-5/5/2018,West,NNE,Hatched,Good,,,,,,,,,,1345,1A/1J,1A,In nest,,1,"1J latched onto west side of nest, flapping wings, Dad stood up flapping wings, vocalizing and picking at 1J, 1J flew off, happened very fast, Eaglet OK, must have gone under Dad's wing for protection, is right beside Dad"
+5/5/2018,West,NNE,Hatched,Good,,70,,,,,,,,1338,1A,1A,In nest,,1,"Eaglet is not very active today, must be nap time"
+5/5/2018,West,NNE,Hatched,Good,,70,,,,,,,,1345,1A/1J,1A,In nest,,1,"1J latched onto west side of nest, flapping wings, Dad stood up flapping wings, vocalizing and picking at 1J, 1J flew off, happened very fast, Eaglet OK, must have gone under Dad's wing for protection, is right beside Dad"
 5/5/2018,West,NNE,Hatched,Good,Mary Hill,70,10,S,0,0,Binoc's/Scope,1257,1358,1351,1A,1A,In nest,,1,"Can see Eaglet really well now, it is starting to turn dark colored"
-5/5/2018,West,NNE,Hatched,Good,,,,,,,,,,1358,1A,1A,In nest,,1,All is quiet
+5/5/2018,West,NNE,Hatched,Good,,60,,,,,,,,1358,1A,1A,In nest,,1,All is quiet
 5/13/2018,West,NNE,Hatched,Good,Steve Hill,51,8,N,0,100,Binoc's/Scope,1300,1515,1300,2A,2A,In nest/on branch,,1,"1A eating in nest, 1A on branch above nest"
-5/13/2018,West,NNE,Hatched,Good,,,,,,,,,,1305,2A,2A,On branches above & W of nest,,1,1A moved to branch also
-5/13/2018,West,NNE,Hatched,Good,,,,,,,,,,1307,1A,1A,On Branch,,1,1A flew off
+5/13/2018,West,NNE,Hatched,Good,,51,,,,,,,,1305,2A,2A,On branches above & W of nest,,1,1A moved to branch also
+5/13/2018,West,NNE,Hatched,Good,,51,,,,,,,,1307,1A,1A,On Branch,,1,1A flew off
 5/13/2018,West,NNE,Hatched,Good,Steve Hill,51,8,N,0,100,Binoc's/Scope,1300,1515,1309,1A,0,On branch,,1,Glimpse of Eaglet's wing in nest
-5/13/2018,West,NNE,Hatched,Good,,,,,,,,,,1316,1A,1A,In nest,,1,"1A back in nest, very observant (maybe a kayak)"
-5/13/2018,West,NNE,Hatched,Good,,,,,,,,,,1321,1A,1A,In nest,,1,"Standing in nest calling out, something in estuary screaming in distress, 1A is Mom"
+5/13/2018,West,NNE,Hatched,Good,,51,,,,,,,,1316,1A,1A,In nest,,1,"1A back in nest, very observant (maybe a kayak)"
+5/13/2018,West,NNE,Hatched,Good,,51,,,,,,,,1321,1A,1A,In nest,,1,"Standing in nest calling out, something in estuary screaming in distress, 1A is Mom"
 5/13/2018,West,NNE,Hatched,Good,Steve Hill,51,8,N,0,100,Binoc's/Scope,1300,1515,1350,1A,1A,In nest,,1,Glimpse of Eaglet's wing in nest
-5/13/2018,West,NNE,Hatched,Good,,,,,,,,,,1353,0,0,0,,1,1A flew off leaving nest unguarded
-5/13/2018,West,NNE,Hatched,Good,,,,,,,,,,1357,0,0,0,,1,Glimpse of Eaglet's wing
+5/13/2018,West,NNE,Hatched,Good,,51,,,,,,,,1353,0,0,0,,1,1A flew off leaving nest unguarded
+5/13/2018,West,NNE,Hatched,Good,,51,,,,,,,,1357,0,0,0,,1,Glimpse of Eaglet's wing
 5/13/2018,West,NNE,Hatched,Good,Steve Hill,51,8,N,0,100,Binoc's/Scope,1300,1515,1402,0,0,0,,1,No birds in sight
-5/13/2018,West,NNE,Hatched,Good,,,,,,,,,,1429,0,0,0,,1,"Eaglet up in nest moving around, jumping up & down flapping wings, eating some, very aware of 1Aflying by, trying to climb up on branch, very clumsy."
-5/13/2018,West,NNE,Hatched,Good,,,,,,,,,,1436,0,0,0,,1,"Eaglet back in nest eating, very active, has lost most of it's chick fuzz"
+5/13/2018,West,NNE,Hatched,Good,,51,,,,,,,,1429,0,0,0,,1,"Eaglet up in nest moving around, jumping up & down flapping wings, eating some, very aware of 1Aflying by, trying to climb up on branch, very clumsy."
+5/13/2018,West,NNE,Hatched,Good,,51,,,,,,,,1436,0,0,0,,1,"Eaglet back in nest eating, very active, has lost most of it's chick fuzz"
 5/13/2018,West,NNE,Hatched,Good,Steve Hill,51,8,N,0,100,Binoc's/Scope,1300,1515,1440,0,0,0,,1,No birds in sight
-5/13/2018,West,NNE,Hatched,Good,,,,,,,,,,1445,0,0,0,,1,"See Eaglets head in nest popping up occasionally, no adults in sight"
-5/13/2018,West,NNE,Hatched,Good,,,,,,,,,,1451,0,0,0,,1,"Eaglet eating in nest very active, flapping wings a lot, no adults"
+5/13/2018,West,NNE,Hatched,Good,,51,,,,,,,,1445,0,0,0,,1,"See Eaglets head in nest popping up occasionally, no adults in sight"
+5/13/2018,West,NNE,Hatched,Good,,51,,,,,,,,1451,0,0,0,,1,"Eaglet eating in nest very active, flapping wings a lot, no adults"
 5/13/2018,West,NNE,Hatched,Good,Steve Hill,51,8,N,0,100,Binoc's/Scope,1300,1515,1500,0,0,0,,1,"Eaglet eating, no adults"
-5/13/2018,West,NNE,Hatched,Good,,,,,,,,,,1505,1A,1A,On branch,,1,"1A on branch above nest, Eaglet in nest"
+5/13/2018,West,NNE,Hatched,Good,,51,,,,,,,,1505,1A,1A,On branch,,1,"1A on branch above nest, Eaglet in nest"
 5/16/2018,West,NNE,Hatched,Good,Steve Hill,58,5,NNW,0,100,Binoc's/Scope,1205,1405,1205,1A,1A,On branch,,1,"1A on branch preening, Eaglet in nest moving around"
-5/16/2018,West,NNE,Hatched,Good,,,,,,,,,,1225,1A,1A,On branch,,1,"1A must have a serious case of bugs, Eaglet on nest edge looking around, very clumsy"
-5/16/2018,West,NNE,Hatched,Good,,,,,,,,,,1332,1A,1A,On Branch,,1,"1A still scratching, Eaglet down in nest, can't seevery well"
+5/16/2018,West,NNE,Hatched,Good,,58,,,,,,,,1225,1A,1A,On branch,,1,"1A must have a serious case of bugs, Eaglet on nest edge looking around, very clumsy"
+5/16/2018,West,NNE,Hatched,Good,,58,,,,,,,,1332,1A,1A,On Branch,,1,"1A still scratching, Eaglet down in nest, can't seevery well"
 5/16/2018,West,NNE,Hatched,Good,Steve Hill,58,5,NNW,0,100,Binoc's/Scope,1205,1405,1236,1A,1A,On branch,,1,"1A calling out, Eaglet not visable, 1A still on branch scratching"
-5/16/2018,West,NNE,Hatched,Good,,,,,,,,,,1249,1A,1A,On branch,,1,"1A on branch above nest calling out, Eaglet not visable"
-5/16/2018,West,NNE,Hatched,Good,,,,,,,,,,1253,1A,1A,On branch,,1,"Weather clearing up nicely, sun on nest"
+5/16/2018,West,NNE,Hatched,Good,,58,,,,,,,,1249,1A,1A,On branch,,1,"1A on branch above nest calling out, Eaglet not visable"
+5/16/2018,West,NNE,Hatched,Good,,58,,,,,,,,1253,1A,1A,On branch,,1,"Weather clearing up nicely, sun on nest"
 5/16/2018,West,NNE,Hatched,Good,Steve Hill,58,5,NNW,0,100,Binoc's/Scope,1205,1405,1255,1A,1A,On branch,,1,"1A still preening/scratching, Eaglet moving around in nest"
-5/16/2018,West,NNE,Hatched,Good,,,,,,,,,,1321,2A,1A,On nest,,1,"Dad arrives w/food, Mom flew off, Dad eating, Eaglet took a dump over side of nest, not sure Dad is sharing much food"
-5/16/2018,West,NNE,Hatched,Good,,,,,,,,,,1334,1A,1A,On branch,,1,"1A moved to branch above nest, can't see Eaglet"
+5/16/2018,West,NNE,Hatched,Good,,58,,,,,,,,1321,2A,1A,On nest,,1,"Dad arrives w/food, Mom flew off, Dad eating, Eaglet took a dump over side of nest, not sure Dad is sharing much food"
+5/16/2018,West,NNE,Hatched,Good,,58,,,,,,,,1334,1A,1A,On branch,,1,"1A moved to branch above nest, can't see Eaglet"
 5/16/2018,West,NNE,Hatched,Good,Steve Hill,58,5,NNW,0,100,Binoc's/Scope,1205,1405,1341,1A,1A,On branch,,1,"Dad on branch, Eaglet on side of nest facing into wind flapping wings"
-5/16/2018,West,NNE,Hatched,Good,,,,,,,,,,1345,1A,1A,In nest,,1,"Dad in nest eating, sharing w/Eaglet"
-5/16/2018,West,NNE,Hatched,Good,,,,,,,,,,1348,1A/1J,1A,In nest,,1,Dad & Eaglet very alert as 1J glided past nest
+5/16/2018,West,NNE,Hatched,Good,,58,,,,,,,,1345,1A,1A,In nest,,1,"Dad in nest eating, sharing w/Eaglet"
+5/16/2018,West,NNE,Hatched,Good,,58,,,,,,,,1348,1A/1J,1A,In nest,,1,Dad & Eaglet very alert as 1J glided past nest
 5/16/2018,West,NNE,Hatched,Good,Steve Hill,58,5,NNW,0,100,Binoc's/Scope,1205,1405,1351,2A,2A,In nest/on branch,,1,"Mom returned, Dad in nest, Mom on branch above, Eaglet out of sight"
-5/16/2018,West,NNE,Hatched,Good,,,,,,,,,,1355,2A,2A,On branch,,1,"Both Adults on branch sounding alarm, Eaglet in nest, Mom flew away"
-5/16/2018,West,NNE,Hatched,Good,,,,,,,,,,1358,1A,1A,In nest,,1,Dad eating
+5/16/2018,West,NNE,Hatched,Good,,58,,,,,,,,1355,2A,2A,On branch,,1,"Both Adults on branch sounding alarm, Eaglet in nest, Mom flew away"
+5/16/2018,West,NNE,Hatched,Good,,58,,,,,,,,1358,1A,1A,In nest,,1,Dad eating
 5/16/2018,West,NNE,Hatched,Good,Steve Hill,58,5,NNW,0,100,Binoc's/Scope,1205,1405,1405,1A,1A,In nest,,1,"Dad moving stuff around in nest, Eaglet observing & eating"
 5/23/2018,West,NNE,Hatched,Good,Steve Hill,72,10-May,NW,0,0,Binoc's/Scope,125,1530,1325,1A,1A,On branch,,1,"1A on branch calling like gull, no response heard, bright grren eye, occasionally sounding alarm"
-5/23/2018,West,NNE,Hatched,Good,,,,,,,,,,1359,1A,1A,On branch,,1,"1A on branch, Eaglet in nest preening, adult must be Mom, scratching & digging"
-5/23/2018,West,NNE,Hatched,Good,,,,,,,,,,1404,1A,1A,On branch,,1,"1A on branch, Eaglet on edge of nest eating & looking out, Eaglet looks mostly black w/little white fuzz on head"
+5/23/2018,West,NNE,Hatched,Good,,72,,,,,,,,1359,1A,1A,On branch,,1,"1A on branch, Eaglet in nest preening, adult must be Mom, scratching & digging"
+5/23/2018,West,NNE,Hatched,Good,,72,,,,,,,,1404,1A,1A,On branch,,1,"1A on branch, Eaglet on edge of nest eating & looking out, Eaglet looks mostly black w/little white fuzz on head"
 5/23/2018,West,NNE,Hatched,Good,Steve Hill,72,10-May,NW,0,0,Binoc's/Scope,125,1530,1405,1A,1A,On branch,,1,"1A on branch, Eaglet sitting in nest"
-5/23/2018,West,NNE,Hatched,Good,,,,,,,,,,1410,1A,1A,On branch,,1,Eaglet sleeping
-5/23/2018,West,NNE,Hatched,Good,,,,,,,,,,1430,1A,1A,On branch,,1,"1A making gull like calls, no response"
+5/23/2018,West,NNE,Hatched,Good,,72,,,,,,,,1410,1A,1A,On branch,,1,Eaglet sleeping
+5/23/2018,West,NNE,Hatched,Good,,72,,,,,,,,1430,1A,1A,On branch,,1,"1A making gull like calls, no response"
 5/23/2018,West,NNE,Hatched,Good,Steve Hill,72,10-May,NW,0,0,Binoc's/Scope,125,1530,1440,1A,1A,On branch,,1,"1A on branch still making gull like calls, Eaglet sleeping"
-5/23/2018,West,NNE,Hatched,Good,,,,,,,,,,1451,0,0,0,,1,"1A flew away, Eaglet in nest looking around"
-5/23/2018,West,NNE,Hatched,Good,,,,,,,,,,1500,0,0,0,,1,"Eaglet in nest, can hear adult making gull like calls"
+5/23/2018,West,NNE,Hatched,Good,,72,,,,,,,,1451,0,0,0,,1,"1A flew away, Eaglet in nest looking around"
+5/23/2018,West,NNE,Hatched,Good,,72,,,,,,,,1500,0,0,0,,1,"Eaglet in nest, can hear adult making gull like calls"
 5/23/2018,West,NNE,Hatched,Good,Steve Hill,72,10-May,NW,0,0,Binoc's/Scope,125,1530,1510,0,0,0,,1,"No longer here adult, Eaglet in nest looking around"
-5/23/2018,West,NNE,Hatched,Good,,,,,,,,,,1518,0,0,0,,1,"Eaglet briefly on branch, then down on sideof nest, wings open jumping up & down into wind"
-5/23/2018,West,NNE,Hatched,Good,,,,,,,,,,1521,0,0,0,,1,"Eaglet on edge of nest preening in sun, occasionally hear gull like call nearby"
+5/23/2018,West,NNE,Hatched,Good,,75,,,,,,,,1518,0,0,0,,1,"Eaglet briefly on branch, then down on sideof nest, wings open jumping up & down into wind"
+5/23/2018,West,NNE,Hatched,Good,,75,,,,,,,,1521,0,0,0,,1,"Eaglet on edge of nest preening in sun, occasionally hear gull like call nearby"
 5/28/2018,West,NNE,Hatched,Good,Steve Hill,82,5,NW,0,0,Binoc's/Scope,920,1020,920,2A,2A,In nest/on nest,,1,"1A eating, 1A on side of nest, Eaglet making gull call"
-5/28/2018,West,NNE,Hatched,Good,,,,,,,,,,930,2A,2A,On nest,,1,"2A eating, food at both ends of nest, Eaglet on side of nest"
-5/28/2018,West,NNE,Hatched,Good,,,,,,,,,,932,1A,1A,On nest,,1,"1A flew off, 1A eating, Eaglet on nest looking out"
+5/28/2018,West,NNE,Hatched,Good,,82,,,,,,,,930,2A,2A,On nest,,1,"2A eating, food at both ends of nest, Eaglet on side of nest"
+5/28/2018,West,NNE,Hatched,Good,,82,,,,,,,,932,1A,1A,On nest,,1,"1A flew off, 1A eating, Eaglet on nest looking out"
 5/28/2018,West,NNE,Hatched,Good,Steve Hill,82,5,NW,0,0,Binoc's/Scope,920,1020,938,1A,1A,On nest,,1,Both looking out over estuary
-5/28/2018,West,NNE,Hatched,Good,,,,,,,,,,1000,1A,1A,On nest,,1,"1A looking out, Eaglet must have it's head down sleeping"
-5/28/2018,West,NNE,Hatched,Good,,,,,,,,,,1015,1A,1A,On nest,,1,Both on side of nest looking out
+5/28/2018,West,NNE,Hatched,Good,,82,,,,,,,,1000,1A,1A,On nest,,1,"1A looking out, Eaglet must have it's head down sleeping"
+5/28/2018,West,NNE,Hatched,Good,,82,,,,,,,,1015,1A,1A,On nest,,1,Both on side of nest looking out
 5/28/2018,West,NNE,Hatched,Good,Steve Hill,82,5,NW,0,0,Binoc's/Scope,920,1020,1020,0,0,0,,1,1A flew off
 6/5/2018,West,NNE,Branching,Good,"Em, Travis, Leila",65,10,NNW,0,100,Vortex scope,1300,1402,1303,1EAG,1,,,1,"EAG stretched wings, down in nest"
-6/5/2018,West,NNE,Branching,Good,,,,,,,,,,1308,1EAG,1,,,1,Moving around in nest
-6/5/2018,West,NNE,Branching,Good,,,,,,,,,,1310,1EAG,1,,,1,branching
+6/5/2018,West,NNE,Branching,Good,,65,,,,,,,,1308,1EAG,1,,,1,Moving around in nest
+6/5/2018,West,NNE,Branching,Good,,65,,,,,,,,1310,1EAG,1,,,1,branching
 6/5/2018,West,NNE,Branching,Good,"Em, Travis, Leila",65,10,NNW,0,100,Vortex scope,1300,1402,1317,1EAG,1,,,1,Preening
-6/5/2018,West,NNE,Branching,Good,,,,,,,,,,1323,"1EAG, 1A",2,"Adult next to nest, pestered by RWBL",,1,"EAG in nest, staring out"
-6/5/2018,West,NNE,Branching,Good,,,,,,,,,,1334,1EAG,1,1A flew off,,1,RWBL also flew off
+6/5/2018,West,NNE,Branching,Good,,65,,,,,,,,1323,"1EAG, 1A",2,"Adult next to nest, pestered by RWBL",,1,"EAG in nest, staring out"
+6/5/2018,West,NNE,Branching,Good,,65,,,,,,,,1334,1EAG,1,1A flew off,,1,RWBL also flew off
 6/5/2018,West,NNE,Branching,Good,"em, Travis, Leila",65,10,nnw,0,100,Vortex scope,1300,1402,1343,1EAG,1,,,1,Branching
-6/5/2018,West,NNE,Branching,Good,,,,,,,,,,1402,1EAG,1,,,1,EAG still perched on edge of nest
+6/5/2018,West,NNE,Branching,Good,,75,,,,,,,,1402,1EAG,1,,,1,EAG still perched on edge of nest
 6/8/2018,West,NNE,Branching,Good,Steve Hill,75,5,NNW,0,80,Binoc's/Scope,945,1145,945,0,0,0,,1,"Eaglet on side of nest facing West, all black, nowhite fuzz on head"
-6/8/2018,West,NNE,Branching,Good,,,,,,,,,,1015,0,0,0,,1,"Eaglet flapping wings & jumping up & down on side of nest, actually has some lift, trailing edge of wings not completely filled in yet"
-6/8/2018,West,NNE,Branching,Good,,,,,,,,,,1025,0,0,0,,1,Eaglet on East end of nest maybe eating
+6/8/2018,West,NNE,Branching,Good,,75,,,,,,,,1015,0,0,0,,1,"Eaglet flapping wings & jumping up & down on side of nest, actually has some lift, trailing edge of wings not completely filled in yet"
+6/8/2018,West,NNE,Branching,Good,,75,,,,,,,,1025,0,0,0,,1,Eaglet on East end of nest maybe eating
 6/8/2018,West,NNE,Branching,Good,Steve Hill,75,5,NNW,0,80,Binoc's/Scope,945,1145,1030,0,0,0,,1,"Eaglet preening on East side of nest, watching kayaks go by"
-6/8/2018,West,NNE,Branching,Good,,,,,,,,,,1035,0,0,0,,1,Eaglet in nest eating
-6/8/2018,West,NNE,Branching,Good,,,,,,,,,,1040,0,0,0,,1,Eaglet eating & moving sticks around in nest
+6/8/2018,West,NNE,Branching,Good,,75,,,,,,,,1035,0,0,0,,1,Eaglet in nest eating
+6/8/2018,West,NNE,Branching,Good,,75,,,,,,,,1040,0,0,0,,1,Eaglet eating & moving sticks around in nest
 6/8/2018,West,NNE,Branching,Good,Steve Hill,75,5,NNW,0,80,Binoc's/Scope,945,1145,1043,1A,1A,On nest,,1,"1 small bird pestering nest, very persistant, 1A trying to catch it, 1A brought food, Eaglet eating"
-6/8/2018,West,NNE,Branching,Good,,,,,,,,,,1055,1A,1A,On nest,,1,"Red Wing Blackbird still attacking 1A, Eaglet eating, 1A still trying to catch bird"
-6/8/2018,West,NNE,Branching,Good,,,,,,,,,,1100,1A,1A,On nest,,1,"Eaglet eating, 1A trying to catch bird, calling for help"
+6/8/2018,West,NNE,Branching,Good,,75,,,,,,,,1055,1A,1A,On nest,,1,"Red Wing Blackbird still attacking 1A, Eaglet eating, 1A still trying to catch bird"
+6/8/2018,West,NNE,Branching,Good,,75,,,,,,,,1100,1A,1A,On nest,,1,"Eaglet eating, 1A trying to catch bird, calling for help"
 6/8/2018,West,NNE,Branching,Good,Steve Hill,75,5,NNW,0,80,Binoc's/Scope,945,1145,1105,1A,1A,On nest,,1,"Both eating while fending off bird, 1A feeding Eaglet what appears to be fish at one end & a mammal at other"
-6/8/2018,West,NNE,Branching,Good,,,,,,,,,,1130,1A,1A,On nest,,1,"Eaglet still eating, 1A watching out, Red Wing Blackbird still a pest"
-6/8/2018,West,NNE,Branching,Good,,,,,,,,,,1145,1A,1A,On nest,,1,"Eaglet eating, 1A watching out & eating, Red Wing Blackbird backed off but still present on branch"
+6/8/2018,West,NNE,Branching,Good,,70,,,,,,,,1130,1A,1A,On nest,,1,"Eaglet still eating, 1A watching out, Red Wing Blackbird still a pest"
+6/8/2018,West,NNE,Branching,Good,,70,,,,,,,,1145,1A,1A,On nest,,1,"Eaglet eating, 1A watching out & eating, Red Wing Blackbird backed off but still present on branch"
 6/11/2018,West,NNE,Branching,Good,Mary Hill,67,10-May,ENE,0,100,Binoc's/Scope,1114,1314,1114,0,0,,,1,Saw no adults or eaglet
-6/11/2018,West,NNE,Branching,Good,,,,,,,,,,1124,0,0,,,1,"Glimpse open wing and feathers ruffling in wind, Eaglet way down in nest"
-6/11/2018,West,NNE,Branching,Good,,,,,,,,,,1128,0,0,,,1,"Eaglet on edge, of nest flapping wings"
+6/11/2018,West,NNE,Branching,Good,,67,,,,,,,,1124,0,0,,,1,"Glimpse open wing and feathers ruffling in wind, Eaglet way down in nest"
+6/11/2018,West,NNE,Branching,Good,,67,,,,,,,,1128,0,0,,,1,"Eaglet on edge, of nest flapping wings"
 6/11/2018,West,NNE,Branching,Good,Mary Hill,67,10-May,ENE,0,100,Binoc's/Scope,1114,1314,1154,0,0,,,1,"Eaglet jumping up & down flapping wings, moving around edge of nest and thru nest"
-6/11/2018,West,NNE,Branching,Good,,,,,,,,,,1157,0,0,,,1,Eaglet on edge of nest looking around estuary
-6/11/2018,West,NNE,Branching,Good,,,,,,,,,,1218,0,0,,,1,Preening feathers
+6/11/2018,West,NNE,Branching,Good,,67,,,,,,,,1157,0,0,,,1,Eaglet on edge of nest looking around estuary
+6/11/2018,West,NNE,Branching,Good,,67,,,,,,,,1218,0,0,,,1,Preening feathers
 6/11/2018,West,NNE,Branching,Good,Mary Hill,67,10-May,ENE,0,100,Binoc's/Scope,1114,1314,1221,0,0,,,1,Still on edge of nest looking over estuary
-6/11/2018,West,NNE,Branching,Good,,,,,,,,,,1233,0,0,,,1,Flapping wings hard in wind
-6/11/2018,West,NNE,Branching,Good,,,,,,,,,,1234,0,0,,,1,"Moved to branch, flapping wings then just sitting"
+6/11/2018,West,NNE,Branching,Good,,67,,,,,,,,1233,0,0,,,1,Flapping wings hard in wind
+6/11/2018,West,NNE,Branching,Good,,67,,,,,,,,1234,0,0,,,1,"Moved to branch, flapping wings then just sitting"
 6/11/2018,West,NNE,Branching,Good,Mary Hill,67,10-May,ENE,0,100,Binoc's/Scope,1114,1314,1250,0,0,,,1,"Red Wing is pestering Eaglet, tried to catch, flapping wings hard and hopping from one leg to other"
-6/11/2018,West,NNE,Branching,Good,,,,,,,,,,1259,0,0,,,1,Red Wing stopped
-6/11/2018,West,NNE,Branching,Good,,,,,,,,,,1314,0,0,,,1,"Still sitting on branch, saw no adults and didn't see Eaglet eat"
+6/11/2018,West,NNE,Branching,Good,,70,,,,,,,,1259,0,0,,,1,Red Wing stopped
+6/11/2018,West,NNE,Branching,Good,,70,,,,,,,,1314,0,0,,,1,"Still sitting on branch, saw no adults and didn't see Eaglet eat"
 6/12/2018,West,NNE,Branching,Good,Steve Hill,75,15,S,0,100,Binoc's/Scope,925,1125,925,0,0,,,1,Eaglet on edge of nest
-6/12/2018,West,NNE,Branching,Good,,,,,,,,,,1045,0,0,,,1,Eaglet on branch
+6/12/2018,West,NNE,Branching,Good,,75,,,,,,,,1045,0,0,,,1,Eaglet on branch
 6/13/2018,West,NNE,Branching,Good,Mary Hill,73,10,WSW,0,50,Binoc's/Scope,1000,1130,1000,0,0,,,1,Eaglet on branch sitting
-6/13/2018,West,NNE,Branching,Good,,,,,,,,,,1045,0,0,,,1,"Red Wing showed up, Eaglet flapping wings"
-6/13/2018,West,NNE,Branching,Good,,,,,,,,,,1053,0,0,,,1,"Red Wing gone, Eaglet still on branch"
+6/13/2018,West,NNE,Branching,Good,,73,,,,,,,,1045,0,0,,,1,"Red Wing showed up, Eaglet flapping wings"
+6/13/2018,West,NNE,Branching,Good,,73,,,,,,,,1053,0,0,,,1,"Red Wing gone, Eaglet still on branch"
 6/13/2018,West,NNE,Branching,Good,Mary Hill,73,10,WSW,0,50,Binoc's/Scope,1000,1130,1120,0,0,,,1,Eaglet preening wet feathers
-6/13/2018,West,NNE,Branching,Good,,,,,,,,,,1130,0,0,,,1,Eaglet still sitting on branch
+6/13/2018,West,NNE,Branching,Good,,73,,,,,,,,1130,0,0,,,1,Eaglet still sitting on branch
 6/13/2018,West,NNE,Branching,Good,"Leila, Travis",80,1.7,WSW,light rain,100,Vortex scope,1130,1210,1130,1EAG,1EAG,0,,1,"Black bird pestering EAG, EAG on edge of nest"
-6/13/2018,West,NNE,Branching,Good,,,,,,,,,,1136,1EAG,1EAG,0,,1,"EAG branching, black bird left, opening beak without making calls, preening"
-6/13/2018,West,NNE,Branching,Good,,,,,,,,,,1149,1EAG,1EAG,,,1,"Looking straight down from nest, preening, and occasionally raising one leg "
+6/13/2018,West,NNE,Branching,Good,,80,,,,,,,,1136,1EAG,1EAG,0,,1,"EAG branching, black bird left, opening beak without making calls, preening"
+6/13/2018,West,NNE,Branching,Good,,80,,,,,,,,1149,1EAG,1EAG,,,1,"Looking straight down from nest, preening, and occasionally raising one leg "
 6/14/2018,West,NNE,Branching,Good,Steve Hill,74,15-Oct,N,0,0,Binoc's/Scope,1038,1215,1038,1A,1A,On nest,,1,"Both eating, Eaglet flapping wings, 1A calling out"
-6/14/2018,West,NNE,Branching,Good,,,,,,,,,,1049,1A,1A,On nest,,1,"Both on side of nest looking over estuary, occasionally eating"
-6/14/2018,West,NNE,Branching,Good,,,,,,,,,,1100,1A,1A,On nest,,1,Eaglet still eating
+6/14/2018,West,NNE,Branching,Good,,74,,,,,,,,1049,1A,1A,On nest,,1,"Both on side of nest looking over estuary, occasionally eating"
+6/14/2018,West,NNE,Branching,Good,,74,,,,,,,,1100,1A,1A,On nest,,1,Eaglet still eating
 6/14/2018,West,NNE,Branching,Good,Steve Hill,74,15-Oct,N,0,0,Binoc's/Scope,1038,1215,1115,1A,1A,On nest,,1,"Eaglet eating, 1A looking out then eating"
-6/14/2018,West,NNE,Branching,Good,,,,,,,,,,1120,1A,1A,On nest,,1,"Eaglet on branch, 1A finshing let overs"
-6/14/2018,West,NNE,Branching,Good,,,,,,,,,,1130,0,0,,,1,"1A flew away, Eaglet on branch"
+6/14/2018,West,NNE,Branching,Good,,74,,,,,,,,1120,1A,1A,On nest,,1,"Eaglet on branch, 1A finshing let overs"
+6/14/2018,West,NNE,Branching,Good,,74,,,,,,,,1130,0,0,,,1,"1A flew away, Eaglet on branch"
 6/15/2018,West,NNE,Branching,Good,Steve Hill,74,10-May,NNE,0,0,Binoc's/Scope,925,1025,925,1A,1A,On nest,,1,"1A swatting Red Wing, Eaglet eating"
-6/15/2018,West,NNE,Branching,Good,,,,,,,,,,950,1A,1A,On nest,,1,"Eydie helping 1A get Red Wing, 1A eating, Eaglet watching"
-6/15/2018,West,NNE,Branching,Good,,,,,,,,,,1000,1A,1A,On nest,,1,"1A and Eaglet eating, Red Wing pestering 1A"
+6/15/2018,West,NNE,Branching,Good,,74,,,,,,,,950,1A,1A,On nest,,1,"Eydie helping 1A get Red Wing, 1A eating, Eaglet watching"
+6/15/2018,West,NNE,Branching,Good,,74,,,,,,,,1000,1A,1A,On nest,,1,"1A and Eaglet eating, Red Wing pestering 1A"
 6/15/2018,West,NNE,Branching,Good,Steve Hill,74,10-May,NNE,0,0,Binoc's/Scope,925,1025,1010,1A,1A,On nest,,1,"Red Wing left, both still eating"
-6/15/2018,West,NNE,Branching,Good,,,,,,,,,,1020,1A,1A,On nest,,1,Still eating
-6/15/2018,West,NNE,Branching,Good,,,,,,,,,,1022,0,0,,,1,"Red Wing returned, Eaglet on branch slapping wings, seem powerful enough to fly, 1A flew away"
+6/15/2018,West,NNE,Branching,Good,,74,,,,,,,,1020,1A,1A,On nest,,1,Still eating
+6/15/2018,West,NNE,Branching,Good,,74,,,,,,,,1022,0,0,,,1,"Red Wing returned, Eaglet on branch slapping wings, seem powerful enough to fly, 1A flew away"
 6/15/2018,West,NNE,Branching,Good,Steve Hill,74,10-May,NNE,0,0,Binoc's/Scope,925,1025,1025,0,0,,,1,Eaglet on branch
 6/16/2018,West,NNE,Branching,Good,Mary Hill,71,6,W,0,50,Binoc's/Scope,925,1030,925,0,0,,,1,"Eaglet sitting on branch looking over estuary, no adults, cloudy"
-6/16/2018,West,NNE,Branching,Good,,,,,,,,,,953,1A,1A,On side,,1,"1A landed on nest, didn't bring food, Eaglet on branch flapping wings and jumping"
-6/16/2018,West,NNE,Branching,Good,,,,,,,,,,955,1A,1A,On nest,,1,"Eaglet on side of nest, both eating, sun coming out"
+6/16/2018,West,NNE,Branching,Good,,71,,,,,,,,953,1A,1A,On side,,1,"1A landed on nest, didn't bring food, Eaglet on branch flapping wings and jumping"
+6/16/2018,West,NNE,Branching,Good,,71,,,,,,,,955,1A,1A,On nest,,1,"Eaglet on side of nest, both eating, sun coming out"
 6/16/2018,West,NNE,Branching,Good,Mary Hill,71,6,W,0,50,Binoc's/Scope,925,1030,1001,1A,1A,On branch,,1,"1A on branch trying to catch Red Wing, Eaglet still eating"
-6/16/2018,West,NNE,Branching,Good,,,,,,,,,,1002,0,0,,,1,"1A left, Eaglet still eating"
-6/16/2018,West,NNE,Branching,Good,,,,,,,,,,1017,0,0,,,1,Eaglet back on branch sitting
+6/16/2018,West,NNE,Branching,Good,,82,,,,,,,,1002,0,0,,,1,"1A left, Eaglet still eating"
+6/16/2018,West,NNE,Branching,Good,,82,,,,,,,,1017,0,0,,,1,Eaglet back on branch sitting
 6/18/2018,West,NNE,Branching,Good,Steve Hill,94,15-Oct,W,0,20,Binoc's/Scope,1440,1540,1440,0,0,,,1,Eaglet on branch above nest occasionally flapping wings
 6/18/2018,West,NNE,Branching,Good,Travis,91,16,WSW,0,50,Vortex scope,1640,1715,1643,1EAG,,,,1,"EAG out on branch, branching"
-6/18/2018,West,NNE,Branching,Good,,,,,,,,,,1657,1EAG,,,,1,"EAG still on branch, mouth is continuously open with tongue protruding"
-6/18/2018,West,NNE,Branching,Good,,,,,,,,,,1702,1EAG,,,,1,"EAG still out on branch, more branching"
+6/18/2018,West,NNE,Branching,Good,,81,,,,,,,,1657,1EAG,,,,1,"EAG still on branch, mouth is continuously open with tongue protruding"
+6/18/2018,West,NNE,Branching,Good,,81,,,,,,,,1702,1EAG,,,,1,"EAG still out on branch, more branching"
 6/19/2018,West,NNE,Branching,Good,Mary Hill,71,10,NNE,0,100,Binoc's/Scope,1311,1411,1311,0,0,,,1,Don't see Eaglet or adults
-6/19/2018,West,NNE,Branching,Good,,,,,,,,,,1325,0,0,,,1,Eaglet just stretched wing is way down in nest
-6/19/2018,West,NNE,Branching,Good,,,,,,,,,,1351,0,0,,,1,"Starting to rain lightly, Eaglet is moving around"
+6/19/2018,West,NNE,Branching,Good,,71,,,,,,,,1325,0,0,,,1,Eaglet just stretched wing is way down in nest
+6/19/2018,West,NNE,Branching,Good,,71,,,,,,,,1351,0,0,,,1,"Starting to rain lightly, Eaglet is moving around"
 6/19/2018,West,NNE,Branching,Good,Mary Hill,71,10,NNE,0,100,Binoc's/Scope,1311,1411,1411,0,0,,,1,Still down in nest
 6/20/2018,West,NNE,Branching,Good,Steve Hill,73,10,NNE,0,100,Binoc's/Scope,1345,1445,1345,0,0,,,1,"Eaglet down in nest, top of head is visible"
-6/20/2018,West,NNE,Branching,Good,,,,,,,,,,1430,0,0,,,1,"On branch flapping wings and jumping up and down, not very determined about it.  Also preening white down like feathers out"
-6/20/2018,West,NNE,Branching,Good,,,,,,,,,,1445,0,0,,,1,"Trying to eat but not much there, moved to branch, then back to nest, down in again"
+6/20/2018,West,NNE,Branching,Good,,73,,,,,,,,1430,0,0,,,1,"On branch flapping wings and jumping up and down, not very determined about it.  Also preening white down like feathers out"
+6/20/2018,West,NNE,Branching,Good,,73,,,,,,,,1445,0,0,,,1,"Trying to eat but not much there, moved to branch, then back to nest, down in again"
 6/20/2018,West,NNE,Branching,Good,Steve Hill,73,10,NNE,0,100,Binoc's/Scope,1345,1445,,,,,,,
 6/21/2018,West,NNE,Branching,Good,Steve Hill,73,15-Oct,NNW,0,100,Binoc's/Scope,1315,1515,1315,0,0,,,1,Eaglet flapping and jumping branch to branch
-6/21/2018,West,NNE,Branching,Good,,,,,,,,,,1330,0,0,,,1,"Eaglet in nest, hard to see, feathers blowing in wind"
-6/21/2018,West,NNE,Branching,Good,,,,,,,,,,1400,0,0,,,1,"Still down in nest, hear generator and people electro fishing"
+6/21/2018,West,NNE,Branching,Good,,73,,,,,,,,1330,0,0,,,1,"Eaglet in nest, hard to see, feathers blowing in wind"
+6/21/2018,West,NNE,Branching,Good,,73,,,,,,,,1400,0,0,,,1,"Still down in nest, hear generator and people electro fishing"
 6/21/2018,West,NNE,Branching,Good,Steve Hill,73,15-Oct,NNW,0,100,Binoc's/Scope,1315,1515,1430,0,0,,,1,"Up out of nest facing into wind with wings spread, back into nest, then back to branch, lifted itself up to another branch flapping wings, hovered above branch, back on branch, back in nest"
-6/21/2018,West,NNE,Branching,Good,,,,,,,,,,1445,0,0,,,1,"On side of nest looking around, facing into wind"
-6/21/2018,West,NNE,Branching,Good,,,,,,,,,,1515,0,0,,,1,On edge of nest facing into wind looks very sleek
+6/21/2018,West,NNE,Branching,Good,,71,,,,,,,,1445,0,0,,,1,"On side of nest looking around, facing into wind"
+6/21/2018,West,NNE,Branching,Good,,71,,,,,,,,1515,0,0,,,1,On edge of nest facing into wind looks very sleek
 6/22/2018,West,NNE,Branching,Good,Steve Hill,70,15-Oct,ENE,0,100,Binoc's/Scope,1430,1530,1430,0,0,,,1,"No Eaglet at/in immedate vacinity of nest, found Eaglet on branch away from nest, hear 1A calling and Eaglet looking in that direction"
-6/22/2018,West,NNE,Branching,Good,,,,,,,,,,1530,0,0,,,1,"Eaglet still on same branch, preening and still pulling out white downy feathers, adult still calling and Eaglet looking"
+6/22/2018,West,NNE,Branching,Good,,70,,,,,,,,1530,0,0,,,1,"Eaglet still on same branch, preening and still pulling out white downy feathers, adult still calling and Eaglet looking"
 6/23/2018,West,NNE,Branching,Good,Steve Hill,70,11,SW,0,50,Binoc's/Scope,850,1000,850,0,0,,,1,"Eaglet on same branch as yesterday, RBB arrived and pestering, Eaglet moved into leaves, hard to see, moved back to nest, could only occasionally see lifted wing"
 6/24/2018,West,NNE,Fledged,Good,Mary Hill,73,12,W,0,80,Binoc's/Scope,1203,1305,1203,0,0,,,0,Could not see Eaglet on any branch nor was there indication she was down in nest
 6/25/2018,West,NNE,Fledged,Good,Travis,70,16,NE,0,100,Vortex scope,1345,1425,1345,0,0,0,0,0,No sign of EAG

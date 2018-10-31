@@ -1,0 +1,201 @@
+---
+title: "InSuKa: Descriptive Statistics and R Script "
+author: "Indra Chintakayala, Wancheng Sun, Kalapna Jha"
+date: "October 30, 2018"
+output: 
+  html_document:
+    toc: yes
+    toc_float: 
+          collapsed: false
+          smooth_scroll: false
+    toc_depth: 4
+    fig_caption: true
+    number_sections: true
+    theme : readable
+    highlight: tango
+    code_folding: show
+
+---
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE} 
+knitr::opts_chunk$set(cache=TRUE)
+knitr::opts_knit$set(root.dir = "D:/Old Woman Creek/WorkingDirectory/BaldEagleMonitoring/Indra_RScript")
+```
+
+<div id="hd">
+  <img src="img/UNO-logo-color.png" width="220px" alt="">
+  <img src="img/owclogo.jpg" alt="">
+</div> 
+
+# .R Packages required
+
+
+Make sure you have latest R and Rstudio installed before starting this process. These are the R packages that are required to complete the data cleaning and documentation using Rstudio.
+
+* knitr - for rendering HTML reports
+* tidyverse - for data manupulations
+
+
+**Note:** The above packages do not come with Rstudio installation, they need to be installed explictly, use the packages tab or just type install.packages("package_name").
+
+
+Next load the R packages:
+```{r message=FALSE}
+library("knitr")
+library("tidyverse")
+```
+
+
+# .R Scripts
+
+## Avian Monitoring - eBird
+
+
+
+
+## Avian Monitoring 
+
+
+
+
+## Bald Eagle Nesting
+
+Based on Research questions, we have identified the following variables that are useful in deriving our data insights and conclusions. There are two types of data that are observed by the scientists/volunteers in same dataset i.e,  Quantitative data and Qualitative data.
+
+### Qualitative Data Variables:
+
+The following data values are descriptive and non-numeric.
+
+* NestStatus
+* NestCondition
+* BirdsPresent&Plumages
+* BirdsonNest
+* AprroxEggs
+* ApproxChicks
+
+Setting the working directory and reading the cleaned data:
+```{r}
+setwd("D:/Old Woman Creek/WorkingDirectory/BaldEagleMonitoring/Indra_RScript") # setting the working dir
+eagle_raw_data <- read.csv("BaldEagle.csv") # reading the csv data
+```
+
+'eagle_raw_data' stores the whole dataset from csv file. We make data manupulations of the variable 'eagle_raw_data'. 
+
+
+#### Frequency Distribution of Qualitative Data:
+```{r}
+NestStatus = eagle_raw_data$NestStatus # select NestStatus from raw data
+NestStatus.freq = table(NestStatus) # Apply the table function
+```
+
+NestStatus.freq stores the frequency of each occurence. Lets view the frequecy distribution:
+```{r}
+kable(NestStatus.freq) # view the distributions
+```
+
+Similarly, we can get the frequency distribution for other qualitative variables. We are working on using this frequency to get the plots by joining the Quantitative data.
+
+
+#### Relative Frequency Distribution of Qualitative Data
+
+
+> The relative frequency distribution of a data variable is a summary of the frequency proportion in a collection of non-overlapping categories. [2]
+
+
+The relationship of frequency and relative frequency is:
+
+
+<img src="http://bit.ly/2zdC2ZP" align="center" border="0" alt="Relative Frequency =  \frac{Frequency}{Sample Size} " width="294" height="46" />
+
+```{r}
+NestStatus.relfreq = NestStatus.freq / nrow(eagle_raw_data) # calculating the relative freq.
+```
+
+Rounding the decimal frequencies to '3' digits. 
+
+
+```{r}
+old = options(digits = 3)
+kable(NestStatus.relfreq)
+options(old)
+```
+
+
+#### Barplot for Frequency
+
+```{r}
+barplot(NestStatus.freq)
+```
+
+
+#### Pie Chart for Frequency
+
+
+```{r}
+colors = c("red", "yellow", "green", "violet", "orange", "blue", "pink", "cyan")
+pie(NestStatus.freq, col=colors)
+```
+
+
+#### Category Statistics
+
+
+H - stands for hatching Nest Status. To find mean temperature(F) for 'Nest Status' = H.
+
+Create logical vector for NestStatus = H:
+```{r}
+H_NestStatus = NestStatus =='H'
+```
+
+
+```{r}
+H_eagle_raw_data = eagle_raw_data[H_NestStatus,]
+```
+
+Now, find the mean Temperature(F) of NestStatus = H:
+```{r}
+round(mean(H_eagle_raw_data$Temp), digits = 2)
+```
+
+The average mean temperature for NestStatus = Hatching is 59.84
+
+
+Similarly, summary will show the quantile, median, Min, Max and Mean values for temperature when NestStatus = H:
+```{r warning=FALSE}
+summary(H_eagle_raw_data$Temp)
+```
+
+
+### Quantitative Data Variables: 
+
+The following data values are non-descriptive and numeric.
+
+* Temp
+* Wind-Velocity
+* Wind-Direction
+* Precipatation
+* CloudCover
+
+
+```{r}
+
+
+```
+
+
+
+
+
+
+
+
+# References
+
+[https://rmarkdown.rstudio.com/authoring_basics.html]
+
+[https://blog.rstudio.com/2016/10/05/r-notebooks/]
+
+[http://www.sciweavers.org/free-online-latex-equation-editor]
+
+[http://www.r-tutor.com/elementary-statistics/qualitative-data]
+
