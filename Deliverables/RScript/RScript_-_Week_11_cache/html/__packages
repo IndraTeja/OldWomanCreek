@@ -9,3 +9,9 @@ purrr
 dplyr
 stringr
 forcats
+rio
+data.table
+ISOweek
+lubridate
+kableExtra
+bindrcpp

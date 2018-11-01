@@ -19,7 +19,8 @@ output:
 
 ```{r setup, echo=FALSE, message=FALSE, warning=FALSE} 
 knitr::opts_chunk$set(cache=TRUE)
-knitr::opts_knit$set(root.dir = "D:/Old Woman Creek/WorkingDirectory/BaldEagleMonitoring/Indra_RScript")
+options(knitr.kable.NA = '')
+knitr::opts_knit$set(root.dir ="C:/Users/indra/Desktop/Week12/OldWomanCreek/Deliverables/RScript")
 ```
 
 <div id="hd">
@@ -41,28 +42,256 @@ Make sure you have latest R and Rstudio installed before starting this process. 
 
 Next load the R packages:
 ```{r message=FALSE}
+#install those packages before run the rmd if there is no package following codes:
+#install.packages(c("rio","data.table","dplyr","anytime","knitr","kableExtra", "ggplot2","ISOweek","alluvial","lubridate"))
 library("knitr")
 library("tidyverse")
+
 ```
 
 
-# .R Scripts
-
-## Avian Monitoring - eBird
+# .Avian Monitoring - eBird
 
 
+## Data Preparation
+
+>Reshaped data of Avia Monitoring
+
+ We reshape some data format and create some new columns which are easy and convient for the following analysis.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+#Avian Monitoring - eBird data
+library(rio)
+avia <- import("C:\\Users\\indra\\Desktop\\Week12\\OldWomanCreek\\Deliverables\\RScript\\Avia.csv") 
+
+library(data.table)
+avia <- setDT(avia)[,Date := as.Date(Date, "%m/%d/%Y")]
+
+namevariable <- names(avia)
+namevariable <- gsub(" ","_",namevariable)
+namevariable <- gsub("/","_",namevariable)
+names(avia) <- namevariable
+
+avia2 <- melt(avia[,c(1:3,6:7)], id.vars = c("Monitoring_Route","Date","eBird","H_S"))
+avia2 <- setDT(avia2)[!is.na(value),]
+
+avia3 <- melt(avia[,c(1:3,8:9)], id.vars = c("Monitoring_Route","Date","eBird","H_S"))
+avia3 <- setDT(avia3)[!is.na(value),]
+
+avia4 <- melt(avia[,c(1:3,10:11)], id.vars = c("Monitoring_Route","Date","eBird","H_S"))
+avia4 <- setDT(avia4)[!is.na(value),]
+
+avia5 <- melt(avia[,c(1:3,12:13)], id.vars = c("Monitoring_Route","Date","eBird","H_S"))
+avia5 <- setDT(avia5)[!is.na(value),]
+
+avia6 <- melt(avia[,c(1:3,14:15)], id.vars = c("Monitoring_Route","Date","eBird","H_S"))
+avia6 <- setDT(avia6)[!is.na(value),]
+
+avia1 <- rbind(avia2,avia3,avia4,avia5,avia6)
+rm(avia2,avia3,avia4,avia5,avia6)
+
+avia1 <- setDT(avia1)[,.(value = sum(value)), by = 
+                          c("Monitoring_Route","Date","eBird","H_S","variable")]
+
+avia2 <- setDT(avia)[,.(eachCount = sum(`#_of_Species`), totalCount = sum(Total_species)),by = 
+                         c("Monitoring_Route","Date","eBird")]
+library(dplyr)
+aviaFinal <- left_join(avia2,avia1,by = c("Monitoring_Route","Date","eBird"))
+rm(avia1,avia2)
+
+library(ISOweek)
+
+aviaFinal <- setDT(aviaFinal)[,Weeks := strftime(Date, format = "%Y-W%V")][,c("year", "WeekNoYear") := tstrsplit(Weeks, "-", fixed=TRUE)]
+aviaFinal <- aviaFinal[,firstWeekDay := paste(Weeks,1,sep = "-")][,firstWeekDay := 
+                                               ISOweek2date(firstWeekDay)][,firstWeekDay := 
+                                                                        strftime(firstWeekDay, format = "%Y-%m-%d")]
+
+library(lubridate)
+aviaFinal <- setDT(aviaFinal)[,`:=`(Year= year(Date),Month = month(Date),MonthWithYear = strftime(Date, format = "%Y-%m"))]
+
+aviaFinal <- aviaFinal[,season := ifelse(Month %in% c(3,4,5),"spring",ifelse(Month %in% c(6,7,8),"summer",ifelse(Month %in% c(9,10,11),"autumn","winter")))]
+
+aviaFinal <- aviaFinal[, H_S :=  recode(H_S,"1"= "Heard","2"="Seen","3"="H&S")]
+
+aviaNoYear <- aviaFinal[,.(value = sum(value,na.rm = T)), by= c("WeekNoYear","variable")][!is.na(variable),]
+
+library(knitr)
+library(kableExtra)
+
+aviaFinal <- aviaFinal[,-c("year","firstWeekDay")]
+kable(sample_n(aviaFinal, 5)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+```
 
 
-## Avian Monitoring 
+
+> Data from eBird
+
+  With the limited access to eBird dataset, we cannot compare this example data with our data directly, we just take this part of example data from eBird website as reference, whcih will make the following analysis easier.
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+#ebird data
+
+ebird <- import("C:\\Users\\indra\\Desktop\\Week12\\OldWomanCreek\\Deliverables\\RScript\\ebirdWebData.xlsx") 
+
+namevariable <- names(ebird)
+namevariable <- gsub("# ","",namevariable)
+namevariable <- gsub(" ","_",namevariable)
+names(ebird) <- namevariable
+
+ebird <- setDT(ebird)[,Week_starting_on := strftime(Week_starting_on, 
+                                                    format = "%m-%d")][,variable := species][,variable := recode(variable,"Wood Duck" = "WODU","Marsh Wren" = "MAWR", "Great Blue Heron" = "GBHE", "Wood Thrush" = "WOTH", "Canada Goose" = "CAGO")]
+
+kable(sample_n(ebird, 5)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+```
+
+## Descriptive Analysis
+
+```{r echo=FALSE, fig.height=4, fig.width=5, message=FALSE, warning=FALSE}
+
+aviaAllu <- aviaFinal[!is.na(aviaFinal$variable),c(1,6,11,14,7:8)]
+aviaAllu <- setDT(aviaAllu)[,.(value = sum(value)),by = c("Monitoring_Route","H_S","variable","Year","season")]
+aviaAllu <- aviaAllu[,c("variable","Year","H_S","Monitoring_Route","season","value")]
+
+basicInfo <- aviaAllu[,.(min = min(value),median = median(value),mean = mean(value), max = max(value)), 
+                      by = variable]
+kable(basicInfo) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+
+
+```
 
 
 
 
-## Bald Eagle Nesting
+### Cross Table
+
+>  With season
+
+   First, we compare these five speices seasonally which includes autumn, spring, summer and winter.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+aviaAllus <- data.table::dcast(aviaAllu,variable ~ season,fun = sum, value.var=c("value"))
+
+kable(head(aviaAllus)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+```
+
+> With Monitoring Route
+
+  Secondly, we compare thesee five species based on Monitoring_Route which includes Blue Trail, Green Trail, Purpule Trail and Red Trail.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+aviaAllus <- data.table::dcast(aviaAllu,variable ~ Monitoring_Route,fun = sum, value.var=c("value"))
+
+kable(head(aviaAllus)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+```
+
+> With H_S
+
+  Thirdly, we comare these five species based on H_S which means the species both heard and seen, headred, seen seperately. 
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+aviaAllus <- data.table::dcast(aviaAllu,variable ~ H_S,fun = sum, value.var=c("value"))
+
+kable(head(aviaAllus)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+```
+
+> With Year
+
+  Forthly, we coompare these five species yearly which mainly focues on 2016, 2017, 2018 years.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+aviaAllus <- data.table::dcast(aviaAllu,variable ~ Year,fun = sum, value.var=c("value"))
+
+kable(head(aviaAllus)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+```
+
+
+## ANOVA Analysis
+
+According to descriptive part, We can be sure each variable with each species in the sample is not homogeneous. But five species have their unique characters on each variable, and we may eplore more relationship on the variables.
+
+The total number of observation in MAWR, WOTH and WODU is not much enough to well estimate the variables difference in the sample. We will only take a trying to test anova group defference on the two species(CAGO, GBHE).
+
+### Canada Goose(CAGO)
+
+
+```{r message=FALSE, warning=FALSE}
+#Randomized Block Design
+fit <- aov(value ~ H_S + Year + Monitoring_Route + season, aviaAllu[variable == "CAGO",])
+anova(fit)
+
+```
+
+As the result shows, we can not reject the null hypothesis on 5%, GAGO's observation number in the four variables has no significant different.
+
+
+### Great blue hero(GBHE)
+
+```{r message=FALSE, warning=FALSE}
+#Randomized Block Design
+fit <- aov(value ~ H_S +  season + Year + Monitoring_Route, aviaAllu[variable == "GBHE",])
+anova(fit)
+```
+
+Still no variable's p-value low than 5% in GBHE. But as the result of the fit and the alluvial diagram suggest, the independence variables have interaction.
+
+
+```{r message=FALSE, warning=FALSE}
+
+# Two Way Factorial Design 
+fit <- aov(value ~  season * H_S, aviaAllu[variable == "GBHE",])
+anova(fit)
+```
+
+With the involving of the interaction, the H_S variable seems to be significant this time. It means different season has different observation ways number.
+
+
+# .Avian Monitoring - Indicator Species
+
+```{r pressure, echo=FALSE}
+avian <- read.csv("C:/Users/indra/Desktop/Week12/OldWomanCreek/Deliverables/RScript/AvianData.csv", header = TRUE, stringsAsFactors=FALSE)
+
+##attach(avian)
+
+avian$Date<-as.Date(avian$Date)
+
+## the code below removes all the empty lines 
+library(tidyverse)
+avian <- filter(avian, !(is.na(EABL) & is.na(WBNU) & is.na(COYE)	 & is.na(EAKI) & is.na(MALL) & is.na(CAGO) & is.na(MODO) & is.na(MAWR) & is.na(CATE) & is.na(GREG) & is.na(WODU) & is.na(GBHE) & is.na(RBWO) & is.na(WOTH) & is.na(GRFL) & is.na(AMRE) & is.na(EATO)))
+
+str(avian)
+
+summary(avian)
+
+
+```
+```{r}
+boxplot(avian$EABL, main = 'Eastern Blue Bird', ylab='No. observed')
+```
+```{r}
+CAGO.ts<- ts(avian$CAGO,start = c(2016), frequency = 365)
+  plot(CAGO.ts, main = 'Canada Goose')
+```
+
+
+
+# Bald Eagle Nesting
 
 Based on Research questions, we have identified the following variables that are useful in deriving our data insights and conclusions. There are two types of data that are observed by the scientists/volunteers in same dataset i.e,  Quantitative data and Qualitative data.
 
-### Qualitative Data Variables:
+## Qualitative Data Variables:
 
 The following data values are descriptive and non-numeric.
 
@@ -75,14 +304,14 @@ The following data values are descriptive and non-numeric.
 
 Setting the working directory and reading the cleaned data:
 ```{r}
-setwd("D:/Old Woman Creek/WorkingDirectory/BaldEagleMonitoring/Indra_RScript") # setting the working dir
+setwd("C:/Users/indra/Desktop/Week12/OldWomanCreek/Deliverables/RScript") # setting the working dir
 eagle_raw_data <- read.csv("BaldEagle.csv") # reading the csv data
 ```
 
 'eagle_raw_data' stores the whole dataset from csv file. We make data manupulations of the variable 'eagle_raw_data'. 
 
 
-#### Frequency Distribution of Qualitative Data:
+### Frequency Distribution of Qualitative Data:
 ```{r}
 NestStatus = eagle_raw_data$NestStatus # select NestStatus from raw data
 NestStatus.freq = table(NestStatus) # Apply the table function
@@ -96,7 +325,7 @@ kable(NestStatus.freq) # view the distributions
 Similarly, we can get the frequency distribution for other qualitative variables. We are working on using this frequency to get the plots by joining the Quantitative data.
 
 
-#### Relative Frequency Distribution of Qualitative Data
+### Relative Frequency Distribution of Qualitative Data
 
 
 > The relative frequency distribution of a data variable is a summary of the frequency proportion in a collection of non-overlapping categories. [2]
@@ -121,14 +350,14 @@ options(old)
 ```
 
 
-#### Barplot for Frequency
+### Barplot for Frequency
 
 ```{r}
 barplot(NestStatus.freq)
 ```
 
 
-#### Pie Chart for Frequency
+### Pie Chart for Frequency
 
 
 ```{r}
@@ -137,7 +366,7 @@ pie(NestStatus.freq, col=colors)
 ```
 
 
-#### Category Statistics
+### Category Statistics
 
 
 H - stands for hatching Nest Status. To find mean temperature(F) for 'Nest Status' = H.
@@ -166,7 +395,7 @@ summary(H_eagle_raw_data$Temp)
 ```
 
 
-### Quantitative Data Variables: 
+## Quantitative Data Variables: 
 
 The following data values are non-descriptive and numeric.
 
@@ -182,20 +411,36 @@ The following data values are non-descriptive and numeric.
 
 ```
 
+# .Contributorship
+
+Indra - I worked on Bald eagle, github.
+
+Sun - Worked on eBird Data, github
+
+Kalpana - worked on Indicator species, github and proofreading.
 
 
 
+# .References
 
+[Rmarkdown Authoring Basics](https://rmarkdown.rstudio.com/authoring_basics.html)
 
+[R Notebooks](https://blog.rstudio.com/2016/10/05/r-notebooks/)
 
+[Latex equation editor](http://www.sciweavers.org/free-online-latex-equation-editor)
 
-# References
+[QUalitative Stats in R](http://www.r-tutor.com/elementary-statistics/qualitative-data)
 
-[https://rmarkdown.rstudio.com/authoring_basics.html]
+[Create Awesome HTML Table with knitr::kable and kableExtra](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html)
 
-[https://blog.rstudio.com/2016/10/05/r-notebooks/]
+[Meteorological season](https://en.wikipedia.org/wiki/Season)
 
-[http://www.sciweavers.org/free-online-latex-equation-editor]
+[Creating Alluvial Diagrams](https://cran.r-project.org/web/packages/alluvial/vignettes/alluvial.html)
 
-[http://www.r-tutor.com/elementary-statistics/qualitative-data]
+[Factorial Treatment Structure](https://stat.ethz.ch/~meier/teaching/anova/factorial-treatment-structure.html)
 
+[Two way - between subject analysis of variance](http://personality-project.org/r/r.guide/r.anova.html)
+
+[Bird Observations - eBird](https://ebird.org/barchart?byr=2016&eyr=2018&bmo=1&emo=12&r=US-OH)
+
+[ggplot2 Cheatsheet](https://ggplot2.tidyverse.org)
