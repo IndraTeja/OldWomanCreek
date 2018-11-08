@@ -20,7 +20,7 @@ output:
 ```{r setup, echo=FALSE, message=FALSE, warning=FALSE} 
 knitr::opts_chunk$set(cache=TRUE)
 options(knitr.kable.NA = '')
-knitr::opts_knit$set(root.dir ="C:/Users/indra/Desktop/Week12/OldWomanCreek/Deliverables/RScript")
+knitr::opts_knit$set(root.dir ="C:/Users/indra/Desktop/Week13/OldWomanCreek/Deliverables/RPlot/")
 ```
 
 <div id="hd">
@@ -50,9 +50,302 @@ library("tidyverse")
 ```
 
 
-# .Avian Monitoring - eBird
+# .Avian Monitoring
 
 
+## Data Preparation
+
+>Reshaped data of Avia Monitoring
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+#Avia data
+library(rio)
+avia <- import("C:\\Users\\indra\\Desktop\\Week13\\OldWomanCreek\\Deliverables\\RPlot\\Avia.csv") 
+
+library(data.table)
+avia <- setDT(avia)[,Date := as.Date(Date, "%m/%d/%Y")]
+
+namevariable <- names(avia)
+namevariable <- gsub(" ","_",namevariable)
+namevariable <- gsub("/","_",namevariable)
+names(avia) <- namevariable
+
+avia2 <- melt(avia[,c(1:3,6:7)], id.vars = c("Monitoring_Route","Date","eBird","H_S"))
+avia2 <- setDT(avia2)[!is.na(value),]
+
+avia3 <- melt(avia[,c(1:3,8:9)], id.vars = c("Monitoring_Route","Date","eBird","H_S"))
+avia3 <- setDT(avia3)[!is.na(value),]
+
+avia4 <- melt(avia[,c(1:3,10:11)], id.vars = c("Monitoring_Route","Date","eBird","H_S"))
+avia4 <- setDT(avia4)[!is.na(value),]
+
+avia5 <- melt(avia[,c(1:3,12:13)], id.vars = c("Monitoring_Route","Date","eBird","H_S"))
+avia5 <- setDT(avia5)[!is.na(value),]
+
+avia6 <- melt(avia[,c(1:3,14:15)], id.vars = c("Monitoring_Route","Date","eBird","H_S"))
+avia6 <- setDT(avia6)[!is.na(value),]
+
+avia1 <- rbind(avia2,avia3,avia4,avia5,avia6)
+rm(avia2,avia3,avia4,avia5,avia6)
+
+avia1 <- setDT(avia1)[,.(value = sum(value)), by = 
+                          c("Monitoring_Route","Date","eBird","H_S","variable")]
+
+avia2 <- setDT(avia)[,.(eachCount = sum(`#_of_Species`), totalCount = sum(Total_species)),by = 
+                         c("Monitoring_Route","Date","eBird")]
+library(dplyr)
+aviaFinal <- left_join(avia2,avia1,by = c("Monitoring_Route","Date","eBird"))
+rm(avia1,avia2)
+
+library(ISOweek)
+
+aviaFinal <- setDT(aviaFinal)[,Weeks := strftime(Date, format = "%Y-W%V")][,c("year", "WeekNoYear") := tstrsplit(Weeks, "-", fixed=TRUE)]
+aviaFinal <- aviaFinal[,firstWeekDay := paste(Weeks,1,sep = "-")][,firstWeekDay := 
+                                               ISOweek2date(firstWeekDay)][,firstWeekDay := 
+                                                                        strftime(firstWeekDay, format = "%Y-%m-%d")]
+
+library(lubridate)
+aviaFinal <- setDT(aviaFinal)[,`:=`(Year= year(Date),Month = month(Date),MonthWithYear = strftime(Date, format = "%Y-%m"))]
+
+aviaFinal <- aviaFinal[,season := ifelse(Month %in% c(3,4,5),"spring",ifelse(Month %in% c(6,7,8),"summer",ifelse(Month %in% c(9,10,11),"autumn","winter")))]
+
+aviaFinal <- aviaFinal[, H_S :=  recode(H_S,"1"= "Heard","2"="Seen","3"="H&S")]
+
+aviaNoYear <- aviaFinal[,.(value = sum(value,na.rm = T)), by= c("WeekNoYear","variable")][!is.na(variable),]
+
+library(knitr)
+library(kableExtra)
+
+aviaFinal <- aviaFinal[,-c("year","firstWeekDay")]
+kable(sample_n(aviaFinal, 5)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+```
+
+
+
+> Aggregating by each species and week with no year
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+kable(sample_n(aviaNoYear, 5)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+```
+
+> Data from eBird
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+#ebird data
+
+ebird <- import("C:\\Users\\indra\\Desktop\\Week13\\OldWomanCreek\\Deliverables\\RPlot\\ebirdWebData.xlsx") 
+
+namevariable <- names(ebird)
+namevariable <- gsub("# ","",namevariable)
+namevariable <- gsub(" ","_",namevariable)
+names(ebird) <- namevariable
+
+ebird <- setDT(ebird)[,Week_starting_on := strftime(Week_starting_on, 
+                                                    format = "%m-%d")][,variable := species][,variable := recode(variable,"Wood Duck" = "WODU","Marsh Wren" = "MAWR", "Great Blue Heron" = "GBHE", "Wood Thrush" = "WOTH", "Canada Goose" = "CAGO")]
+
+kable(sample_n(ebird, 5)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+```
+
+## Descriptive Analysis
+
+### Species Number in Sample
+
+```{r echo=FALSE, fig.height=4, fig.width=5, message=FALSE, warning=FALSE}
+
+aviaAllu <- aviaFinal[!is.na(aviaFinal$variable),c(1,6,11,14,7:8)]
+aviaAllu <- setDT(aviaAllu)[,.(value = sum(value)),by = c("Monitoring_Route","H_S","variable","Year","season")]
+
+aviaAllu <- aviaAllu[,c("variable","Year","H_S","Monitoring_Route","season","value")]
+
+library(ggplot2)
+aviaGg <- aviaAllu[,.(value = sum(value)), by = variable][order(value,decreasing = T)]
+ggplot(data=aviaGg, aes(x=variable, y=value)) +
+    geom_bar(stat="identity",fill = "lightblue") + geom_text(aes(label= value), vjust=1) + labs(x = "species", y = "number",title = "Species Sample Number")
+
+```
+
+> Data Summary:
+
+This plot shows the total number of each species based on the csv file. 
+As per the plot we can see that CAGO is the highest in number and WOTH is lowest in number.
+This refers to that CAGO are the most seen species and GBHE is the second highest in number. Also, the data shows that MAWR and WODU are almost similar in number. 
+
+### Alluvial Diagram
+
+```{r echo=FALSE, fig.height=8, fig.width=12, message=FALSE, warning=FALSE}
+
+library(alluvial)
+
+alluvial(aviaAllu[,c(1:5)], freq=aviaAllu$value, border = "grey",
+     col=ifelse(aviaAllu$variable == "CAGO", "red", ifelse(aviaAllu$variable == "GBHE","lightblue",ifelse(aviaAllu$variable == "WODU","orange",ifelse(aviaAllu$variable == "MAWR","lightgreen", "gray") ) )) )
+
+```
+
+>Data Summary:
+
+a, CAGO(Canada Goose) and GBHE(Great Blue Hero) are the same magnitude, MAWR(Marsh Wren), WOTH(Wood Thrush) and WODU(Wood Duck) are another size group in this sample.
+
+b,2017 has the largest sample number, but 2016 and 2018 are not much less than 2017. Different species have different composition ratio. 
+
+c, The way of observation in this five species concentrates on Seen. MAWR and WOTH have a large proportion on Heard than Seen. MAWR has no sample on H&S.
+
+d, Most of the proportion in the sample comes from Blue Trail, but most WOTH number comes from Red Trail.
+
+e, Each species has its unique season to be observated. 
+
+ * CAGO appears in winter,spring and autumn.
+ * MAWR only appears on summer.
+ * GBHE is mostly observated in summer,and part is in spring.
+ * Most of WODU are in summer, and a little of them are in autumn.
+ * WOTH is only in summer.
+
+
+### Cross Table
+
+>  With season
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+aviaAllus <- data.table::dcast(aviaAllu,variable ~ season,fun = sum, value.var=c("value"))
+
+kable(head(aviaAllus)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+```
+
+> With Monitoring Route
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+aviaAllus <- data.table::dcast(aviaAllu,variable ~ Monitoring_Route,fun = sum, value.var=c("value"))
+
+kable(head(aviaAllus)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+```
+
+> With H_S
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+aviaAllus <- data.table::dcast(aviaAllu,variable ~ H_S,fun = sum, value.var=c("value"))
+
+kable(head(aviaAllus)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+```
+
+> With Year
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+aviaAllus <- data.table::dcast(aviaAllu,variable ~ Year,fun = sum, value.var=c("value"))
+
+kable(head(aviaAllus)) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+```
+
+
+## ANOVA Analysis
+
+According to descriptive part, We can be sure each variable with each species in the sample is not homogeneous. But five species have their unique characters on each variable, and we may eplore more relationship on the variables.
+
+The total number of observation in MAWR, WOTH and WODU is not much enough to well estimate the variables difference in the sample. We will only take a trying to test anova group defference on the two species(CAGO, GBHE).
+
+### Canada Goose(CAGO)
+
+
+```{r message=FALSE, warning=FALSE}
+#Randomized Block Design
+fit <- aov(value ~ H_S + Year + Monitoring_Route + season, aviaAllu[variable == "CAGO",])
+anova(fit)
+
+```
+
+As the result shows, we can not reject the null hypothesis on 5%, GAGO's observation number in the four variables has no significant different.
+
+
+### Great blue hero(GBHE)
+
+```{r message=FALSE, warning=FALSE}
+#Randomized Block Design
+fit <- aov(value ~ H_S +  season + Year + Monitoring_Route, aviaAllu[variable == "GBHE",])
+anova(fit)
+```
+
+Still no variable's p-value low than 5% in GBHE. But as the result of the fit and the alluvial diagram suggest, the independence variables have interaction.
+
+
+```{r message=FALSE, warning=FALSE}
+
+# Two Way Factorial Design 
+fit <- aov(value ~  season * H_S, aviaAllu[variable == "GBHE",])
+anova(fit)
+```
+
+With the involving of the interaction, the H_S variable seems to be significant this time. It means different season has different observation ways number.
+
+## Comparing with eBird
+In this part, we want to compare the OWC bird data against eBird data. We want to keep the same five indicator spieces as our sample, which are CAGO, MAWR, GNHE, WOTH and WODU. This part mainly focuses on the different observation number of bird species between OWC data and eBird data which we find in the eBird website based on the week. With the limited source and access to eBird data, we only find some plot from eBird website which are related with these five indicator species. Then, we will make some plot of the same species based on OWC bird data.
+
+In order to develop side-by-side comparison of the same details, we use week as our x-axis and observation number as our y-axis, which are the same meaning as eBird data. Then, we can analysis the total number of speices based on the week and see the comparsion betwwen OWC data and eBird data.
+
+### Canada Goose(CAGO)
+ 
+
+```{r echo=FALSE, fig.width=10, message=FALSE, warning=FALSE}
+
+ggplot(aviaNoYear[variable == "CAGO",])+ geom_line(aes(WeekNoYear,value,group = 1),color = "lightblue",size = 1.3) + labs(x = "week", y = "observation number",title = "Avia data of Canada Goose")
+
+ggplot(ebird[variable == "CAGO",])+ geom_line(aes(Week_starting_on,Totals,group = 1),color = "lightblue",size = 1.3) + labs(x = "Week_starting_on", y = "Totals",title = "eBird data of Canada Goose") + scale_x_discrete(breaks = ebird$Week_starting_on[seq(1, length(ebird$Week_starting_on), by = 2)])
+
+```
+
+### Marsh Wren(MAWR)
+
+```{r echo=FALSE, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(aviaNoYear[variable == "MAWR",])+ geom_line(aes(WeekNoYear,value,group = 1),color = "lightblue",size = 1.3) + labs(x = "week", y = "observation number",title = "Avia data of Marsh Wren")
+
+ggplot(ebird[variable == "MAWR",])+ geom_line(aes(Week_starting_on,Totals,group = 1),color = "lightblue",size = 1.3) + labs(x = "Week_starting_on", y = "Totals",title = "eBird data of Marsh Wren") + scale_x_discrete(breaks = ebird$Week_starting_on[seq(1, length(ebird$Week_starting_on), by = 2)])
+```
+
+
+
+### Great blue hero(GBHE)
+
+```{r echo=FALSE, fig.width=10, message=FALSE, warning=FALSE}
+
+ggplot(aviaNoYear[variable == "GBHE",])+ geom_line(aes(WeekNoYear,value,group = 1),color = "lightblue",size = 1.3) + labs(x = "week", y = "observation number",title = "Avia data of Great blue hero")
+
+ggplot(ebird[variable == "GBHE",])+ geom_line(aes(Week_starting_on,Totals,group = 1),color = "lightblue",size = 1.3) + labs(x = "Week_starting_on", y = "Totals",title = "eBird data of Great blue hero") + scale_x_discrete(breaks = ebird$Week_starting_on[seq(1, length(ebird$Week_starting_on), by = 2)])
+
+```
+
+
+### Wood Thrush (WOTH)
+
+```{r echo=FALSE, fig.width=10, message=FALSE, warning=FALSE}
+
+ggplot(aviaNoYear[variable == "WOTH",])+ geom_line(aes(WeekNoYear,value,group = 1),color = "lightblue",size = 1.3) + labs(x = "week", y = "observation number",title = "Avia data of Wood Thrush")
+
+ggplot(ebird[variable == "WOTH",])+ geom_line(aes(Week_starting_on,Totals,group = 1),color = "lightblue",size = 1.3) + labs(x = "Week_starting_on", y = "Totals",title = "eBird data of Wood Thrush") + scale_x_discrete(breaks = ebird$Week_starting_on[seq(1, length(ebird$Week_starting_on), by = 2)])
+
+```
+
+
+### Wood Duck (WODU)
+
+```{r echo=FALSE, fig.width=10, message=FALSE, warning=FALSE}
+
+ggplot(aviaNoYear[variable == "WODU",])+ geom_line(aes(WeekNoYear,value,group = 1),color = "lightblue",size = 1.3) + labs(x = "week", y = "observation number",title = "Avia data of Wood Duck")
+
+ggplot(ebird[variable == "WODU",])+ geom_line(aes(Week_starting_on,Totals,group = 1),color = "lightblue",size = 1.3) + labs(x = "Week_starting_on", y = "Totals",title = "eBird data of Wood Duck") + scale_x_discrete(breaks = ebird$Week_starting_on[seq(1, length(ebird$Week_starting_on), by = 2)])
+
+```
+
+Based on the above plots, we can see that there are more data aboout total number of species in eBird dataset. However, with AvianMonitoring OWC dataset, there are lack of the observation number of species. Even we cumulate the three years (2016,2017 and 2018), it still cannot be covered in each week because of lack of data. Thus, we cannot make a very clearly comparison between OWC and eBird data.
 
 
 # Bald Eagle Nesting
@@ -147,3 +440,5 @@ Kalpana - worked on Indicator species, github and proofreading.
 [Bird Observations - eBird](https://ebird.org/barchart?byr=2016&eyr=2018&bmo=1&emo=12&r=US-OH)
 
 [ggplot2 Cheatsheet](https://ggplot2.tidyverse.org)
+
+[50 ggplot examples ](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
