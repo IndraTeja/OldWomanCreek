@@ -1,0 +1,149 @@
+---
+title: "InSuKa: Descriptive Statistics and R Script "
+author: "Indra Chintakayala, Wancheng Sun, Kalapna Jha"
+date: "October 30, 2018"
+output: 
+  html_document:
+    toc: yes
+    toc_float: 
+          collapsed: false
+          smooth_scroll: false
+    toc_depth: 4
+    fig_caption: true
+    number_sections: true
+    theme : readable
+    highlight: tango
+    code_folding: show
+
+---
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE} 
+knitr::opts_chunk$set(cache=TRUE)
+options(knitr.kable.NA = '')
+knitr::opts_knit$set(root.dir ="C:/Users/indra/Desktop/Week12/OldWomanCreek/Deliverables/RScript")
+```
+
+<div id="hd">
+  <img src="img/UNO-logo-color.png" width="220px" alt="">
+  <img src="img/owclogo.jpg" alt="">
+</div> 
+
+# .R Packages required
+
+
+Make sure you have latest R and Rstudio installed before starting this process. These are the R packages that are required to complete the data cleaning and documentation using Rstudio.
+
+* knitr - for rendering HTML reports
+* tidyverse - for data manupulations
+
+
+**Note:** The above packages do not come with Rstudio installation, they need to be installed explictly, use the packages tab or just type install.packages("package_name").
+
+
+Next load the R packages:
+```{r message=FALSE}
+#install those packages before run the rmd if there is no package following codes:
+#install.packages(c("rio","data.table","dplyr","anytime","knitr","kableExtra", "ggplot2","ISOweek","alluvial","lubridate"))
+library("knitr")
+library("tidyverse")
+
+```
+
+
+# .Avian Monitoring - eBird
+
+
+
+
+# Bald Eagle Nesting
+
+
+Setting the working directory and reading the cleaned data:
+```{r}
+setwd("C:/Users/indra/Desktop/Week13/OldWomanCreek/Deliverables/RPlot") # setting the working dir
+eagle_raw_data <- read.csv("BaldEagle.csv") # reading the csv data
+```
+
+'eagle_raw_data' stores the whole dataset from csv file. We make data manupulations of the variable 'eagle_raw_data'. 
+
+
+### Barplot for Frequency
+
+```{r}
+NestStatus = eagle_raw_data$NestStatus # select NestStatus from raw data
+NestStatus.freq = table(NestStatus)
+colors = c("red", "yellow", "green", "violet", "orange", "blue", "pink", "cyan")
+barplot(NestStatus.freq, col=colors)
+```
+
+
+### Frequency Distribution of Qualitative Data:
+```{r}
+theme_set(theme_bw())
+neststatus_subset <- subset(eagle_raw_data, select = c("NestStatus", "Temp", "Wind.Velocity.mph.", "Date", "CloudCover"))
+g <- ggplot(neststatus_subset, aes(x=Date,y=Temp)) 
+g + geom_point(aes(col=NestStatus)) + geom_smooth(method="lm", se=F) + labs(subtitle="Time Vs Tempearature", 
+       y="Temparature (F)", 
+       x="Date", 
+       title="Scatterplot", 
+       caption = "Source: BaldEagle")
+```
+
+Similarly, we want to 
+
+
+```{r}
+g <- ggplot(neststatus_subset, aes(x=Temp,y=Wind.Velocity.mph.)) 
+g + geom_point(aes(col=NestStatus)) + geom_smooth(method="lm", se=F) + labs(subtitle="Temperature(F) Vs Wind Velocity(MPH)", 
+       y="Temparature (F)", 
+       x="Wind Veloctiy (mph)", 
+       title="Scatterplot", 
+       caption = "Source: BaldEagle")
+```
+
+
+```{r message=FALSE, warning=FALSE, results='hide'}
+
+eagle_raw_data$temp_z <- round((eagle_raw_data$Temp - mean(eagle_raw_data$Temp))/sd(eagle_raw_data$Temp), 2)
+# above and below avg
+eagle_raw_data$temp_type <- ifelse(eagle_raw_data$temp_z < 0, "below", "above") 
+eagle_raw_data < eagle_raw_data[order(eagle_raw_data$temp_z),] #sorting
+
+ggplot(eagle_raw_data, aes(x=NestStatus,y=temp_z, label=temp_z)) + geom_bar(stat='identity', aes(fill=temp_type), width = .5) + scale_fill_manual(name="Temperature", labels = c("Above Average", "Below Average"), values = c("above"="#00ba38", "below"="#f8766d")) + labs(subtitle="Normalised mileage from 'mtcars'", title= "Diverging Bars") + coord_flip()
+```
+
+
+
+# .Contributorship
+
+Indra - I worked on Bald eagle, github.
+
+Sun - Worked on eBird Data, github
+
+Kalpana - worked on Indicator species, github and proofreading.
+
+
+
+# .References
+
+[Rmarkdown Authoring Basics](https://rmarkdown.rstudio.com/authoring_basics.html)
+
+[R Notebooks](https://blog.rstudio.com/2016/10/05/r-notebooks/)
+
+[Latex equation editor](http://www.sciweavers.org/free-online-latex-equation-editor)
+
+[QUalitative Stats in R](http://www.r-tutor.com/elementary-statistics/qualitative-data)
+
+[Create Awesome HTML Table with knitr::kable and kableExtra](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html)
+
+[Meteorological season](https://en.wikipedia.org/wiki/Season)
+
+[Creating Alluvial Diagrams](https://cran.r-project.org/web/packages/alluvial/vignettes/alluvial.html)
+
+[Factorial Treatment Structure](https://stat.ethz.ch/~meier/teaching/anova/factorial-treatment-structure.html)
+
+[Two way - between subject analysis of variance](http://personality-project.org/r/r.guide/r.anova.html)
+
+[Bird Observations - eBird](https://ebird.org/barchart?byr=2016&eyr=2018&bmo=1&emo=12&r=US-OH)
+
+[ggplot2 Cheatsheet](https://ggplot2.tidyverse.org)
