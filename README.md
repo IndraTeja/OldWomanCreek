@@ -23,9 +23,16 @@ ________
 ### Tools 
 * [R Studio](https://www.rstudio.com/products/rstudio/download/)
 * [R Programming](https://www.rstudio.com/resources/cheatsheets/)
+* [Tableau](https://www.tableau.com/)
 
 ### R Packages
 * [Tidyverse](https://www.tidyverse.org/)
 * [knitr](https://cran.r-project.org/web/packages/knitr/index.html)
+* []()
+
+### Final Deliverables
+* [Project Presentation](https://docs.google.com/presentation/d/1tlXC6aDYtgae_KXM7PmKY-xoQlFMXJTDuZJreI3NAj4/edit#slide=id.p)
+* [R plots published on Rpub](https://rpubs.com/indrateja/owc-final)
+* [Video Recording](https://drive.google.com/open?id=1a7CvS1KsJmPrcXRB9CpT3XgGevlj_oho)
 
 [![HitCount](http://hits.dwyl.io/indraTeja/OldWomanCreek.svg)](http://hits.dwyl.io/indraTeja/OldWomanCreek)
