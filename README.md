@@ -28,7 +28,7 @@ ________
 ### R Packages
 * [Tidyverse](https://www.tidyverse.org/)
 * [knitr](https://cran.r-project.org/web/packages/knitr/index.html)
-* []()
+* [ggplots](https://ggplot2.tidyverse.org/)
 
 ### Final Deliverables
 * [Project Presentation](https://docs.google.com/presentation/d/1tlXC6aDYtgae_KXM7PmKY-xoQlFMXJTDuZJreI3NAj4/edit#slide=id.p)
