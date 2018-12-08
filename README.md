@@ -7,7 +7,6 @@
 ________
 #### Table of Contents
 
-1. [Work Plan & Research Questions](https://github.com/indraTeja/OldWomanCreek/tree/master/Deliverables/WorkPlan)
 1. [Audience Profile](https://github.com/indraTeja/OldWomanCreek/blob/master/Deliverables/AudienceProfile/AudienceProfile.md)
 1. [Data Cleaning Documentation](https://github.com/indraTeja/OldWomanCreek/tree/master/Deliverables/DataCleaningDoc)
 
@@ -29,6 +28,10 @@ ________
 * [Tidyverse](https://www.tidyverse.org/)
 * [knitr](https://cran.r-project.org/web/packages/knitr/index.html)
 * [ggplots](https://ggplot2.tidyverse.org/)
+
+
+### Contributions
+Kalpana worked on Background research, Audience profile, data cleaning for Avian data and Final presentation. Indra worked on Bald Eagle Data cleaning, Analysis in R studio, GitHub repo management and final presentations. Sun worked on Data cleaning and data analysis for Avian data monitoring for indicator species, eBird plots, and final presentation.
 
 ### Final Deliverables
 * [Project Presentation](https://docs.google.com/presentation/d/1tlXC6aDYtgae_KXM7PmKY-xoQlFMXJTDuZJreI3NAj4/edit#slide=id.p)
